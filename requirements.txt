@@ -1,0 +1,2 @@
+# No external Python packages are required.
+# The validation scripts use only the Python standard library.
