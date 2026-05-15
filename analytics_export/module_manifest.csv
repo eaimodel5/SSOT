@@ -1,0 +1,14 @@
+id,version,path,role,required
+ssot.rubrics,17.0.0,modules/ssot.rubrics.17.0.0.json,canonical_rubrics_and_bands,True
+ssot.microdescriptors,17.0.0,modules/ssot.microdescriptors.17.0.0.json,band_evidence_descriptors,True
+ssot.constraints,17.0.0,modules/ssot.constraints.17.0.0.json,hard_soft_constraints_and_synergies,True
+ssot.scoring,17.0.0,modules/ssot.scoring.17.0.0.json,formula_family_and_legacy_scoring_support,True
+ssot.micro_observations,17.0.0,modules/ssot.micro_observations.17.0.0.json,detection_signal_layer,False
+ssot.trace,17.0.0,modules/ssot.trace.17.0.0.json,trace_contract,True
+ssot.commands,17.0.0,modules/ssot.commands.17.0.0.json,canonical_intervention_commands,True
+ssot.formative_workforms,17.0.0,modules/ssot.formative_workforms.17.0.0.json,formatieve_werkvormen_as_fix_candidates,False
+ssot.fix_routing,17.0.0,modules/ssot.fix_routing.17.0.0.json,fix_candidate_selection_and_delivery_policy,True
+ssot.context,17.0.0,modules/ssot.context.17.0.0.json,context_srl_interaction_policy,True
+ssot.flags_interventions,17.0.0,modules/ssot.flags_interventions.17.0.0.json,flags_interventions_relations_bandwidth,True
+ssot.governance,17.0.0,modules/ssot.governance.17.0.0.json,governance_adapter_overlay_policy,True
+ssot.compatibility_map,17.0.0,compatibility/ssot.compatibility_map.17.0.0.json,legacy_to_gamma_mapping,True

@@ -1,0 +1,5 @@
+id,configuration,effect,empirical_basis
+SY1,C5 + VM4 + X4,Optimale configuratie voor zelfregulerend leren op hoog niveau.,XuEtAl2025
+SY2,DBc5 + A3,Human-in-the-loop met proactieve sessie-ondersteuning. De Eedi/DeepMind-configuratie.,EediDeepMind2025
+SY3,Ad5 + VM4,Systeem past deliberatie aan en begeleidt leerling in herkennen wanneer meer denken nodig is.,AdaptiveThinkingLRM2025
+SY4,E4 + DA2,Zichtbare redenering met verifieerbaarheid. Optimaal voor epistemisch verantwoord leren.,ClarkDMelloBobrowicz2024

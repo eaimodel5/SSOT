@@ -1,0 +1,6 @@
+id,condition,warning,rationale
+SC1,C = C1 over langere tijd,L waarschijnlijk laag,AI-gedomineerde regulatie produceert volatiele leerwinst.
+SC2,TD hoog AND L laag over tijd,Schijnleren aannemelijk,De leerling presteert in het moment maar leert niet.
+SC3,Ad >= Ad3 AND VM < VM3,Technische adaptiviteit kan metacognitie verdringen,Systeem past deliberatie aan maar begeleidt leerling niet in herkennen wanneer meer denken nodig is.
+SC4,S = S0 over hele leerreeks,Eenzaam leren voor de meeste leerdoelen onwenselijk,Sociale verrijking ontbreekt.
+SC5,K >= K3 AND DA <= DA1,Inhoudelijke inconsistentie,Conceptuele of metacognitieve kennis vereist diepere verwerking.

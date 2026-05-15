@@ -1,0 +1,1662 @@
+check,passed,severity,detail
+all_json_parse::adapters/generic.adapter.template.json,True,error,
+all_json_parse::compatibility/ssot.compatibility_map.17.0.0.json,True,error,
+all_json_parse::core/ssot.core.17.0.0.json,True,error,
+all_json_parse::modules/ssot.commands.17.0.0.json,True,error,
+all_json_parse::modules/ssot.constraints.17.0.0.json,True,error,
+all_json_parse::modules/ssot.context.17.0.0.json,True,error,
+all_json_parse::modules/ssot.fix_routing.17.0.0.json,True,error,
+all_json_parse::modules/ssot.flags_interventions.17.0.0.json,True,error,
+all_json_parse::modules/ssot.formative_workforms.17.0.0.json,True,error,
+all_json_parse::modules/ssot.governance.17.0.0.json,True,error,
+all_json_parse::modules/ssot.micro_observations.17.0.0.json,True,error,
+all_json_parse::modules/ssot.microdescriptors.17.0.0.json,True,error,
+all_json_parse::modules/ssot.rubrics.17.0.0.json,True,error,
+all_json_parse::modules/ssot.scoring.17.0.0.json,True,error,
+all_json_parse::modules/ssot.trace.17.0.0.json,True,error,
+all_json_parse::reports/integrity_manifest.json,True,error,
+all_json_parse::reports/validation_report.json,True,error,
+all_json_parse::runtime/generic.effective_ssot.json,True,error,
+all_json_parse::schemas/adapter.schema.17.0.0.json,True,error,
+all_json_parse::ssot.family.json,True,error,
+json_parse::ssot.family.json,True,error,
+json_parse::core/ssot.core.17.0.0.json,True,error,
+json_parse::modules/ssot.rubrics.17.0.0.json,True,error,
+json_parse::modules/ssot.microdescriptors.17.0.0.json,True,error,
+json_parse::modules/ssot.constraints.17.0.0.json,True,error,
+json_parse::modules/ssot.commands.17.0.0.json,True,error,
+json_parse::modules/ssot.formative_workforms.17.0.0.json,True,error,
+json_parse::modules/ssot.fix_routing.17.0.0.json,True,error,
+json_parse::modules/ssot.micro_observations.17.0.0.json,True,error,
+json_parse::modules/ssot.trace.17.0.0.json,True,error,
+json_parse::modules/ssot.governance.17.0.0.json,True,error,
+json_parse::adapters/generic.adapter.template.json,True,error,
+json_parse::compatibility/ssot.compatibility_map.17.0.0.json,True,error,
+json_parse::runtime/generic.effective_ssot.json,True,error,
+family_has_modules,True,error,13 modules found
+required_module_exists::ssot.rubrics,True,error,modules/ssot.rubrics.17.0.0.json
+required_module_exists::ssot.microdescriptors,True,error,modules/ssot.microdescriptors.17.0.0.json
+required_module_exists::ssot.constraints,True,error,modules/ssot.constraints.17.0.0.json
+required_module_exists::ssot.scoring,True,error,modules/ssot.scoring.17.0.0.json
+required_module_exists::ssot.trace,True,error,modules/ssot.trace.17.0.0.json
+required_module_exists::ssot.commands,True,error,modules/ssot.commands.17.0.0.json
+required_module_exists::ssot.fix_routing,True,error,modules/ssot.fix_routing.17.0.0.json
+required_module_exists::ssot.context,True,error,modules/ssot.context.17.0.0.json
+required_module_exists::ssot.flags_interventions,True,error,modules/ssot.flags_interventions.17.0.0.json
+required_module_exists::ssot.governance,True,error,modules/ssot.governance.17.0.0.json
+required_module_exists::ssot.compatibility_map,True,error,compatibility/ssot.compatibility_map.17.0.0.json
+family_status_review_ready,True,error,review_ready_external_control
+rubric_count_18,True,error,18 rubrics found
+rubric_id_present::P,True,error,
+rubric_id_unique::P,True,error,P
+band_count_6::P,True,error,6 bands
+band_sequence::P,True,error,"['P0', 'P1', 'P2', 'P3', 'P4', 'P5'] != ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']"
+band_id_unique::P0,True,error,P0
+band_locked::P0,True,error,locked must be true
+band_score_range_shape::P0,True,error,"[0, 0]"
+band_score_range_order::P0,True,error,"[0, 0]"
+band_score_range_bounds::P0,True,error,"[0, 0]"
+band_id_unique::P1,True,error,P1
+band_locked::P1,True,error,locked must be true
+band_score_range_shape::P1,True,error,"[1, 1]"
+band_score_range_order::P1,True,error,"[1, 1]"
+band_score_range_bounds::P1,True,error,"[1, 1]"
+band_id_unique::P2,True,error,P2
+band_locked::P2,True,error,locked must be true
+band_score_range_shape::P2,True,error,"[2, 2]"
+band_score_range_order::P2,True,error,"[2, 2]"
+band_score_range_bounds::P2,True,error,"[2, 2]"
+band_id_unique::P3,True,error,P3
+band_locked::P3,True,error,locked must be true
+band_score_range_shape::P3,True,error,"[3, 3]"
+band_score_range_order::P3,True,error,"[3, 3]"
+band_score_range_bounds::P3,True,error,"[3, 3]"
+band_id_unique::P4,True,error,P4
+band_locked::P4,True,error,locked must be true
+band_score_range_shape::P4,True,error,"[4, 4]"
+band_score_range_order::P4,True,error,"[4, 4]"
+band_score_range_bounds::P4,True,error,"[4, 4]"
+band_id_unique::P5,True,error,P5
+band_locked::P5,True,error,locked must be true
+band_score_range_shape::P5,True,error,"[5, 5]"
+band_score_range_order::P5,True,error,"[5, 5]"
+band_score_range_bounds::P5,True,error,"[5, 5]"
+rubric_id_present::TD,True,error,
+rubric_id_unique::TD,True,error,TD
+band_count_6::TD,True,error,6 bands
+band_sequence::TD,True,error,"['TD0', 'TD1', 'TD2', 'TD3', 'TD4', 'TD5'] != ['TD0', 'TD1', 'TD2', 'TD3', 'TD4', 'TD5']"
+band_id_unique::TD0,True,error,TD0
+band_locked::TD0,True,error,locked must be true
+band_score_range_shape::TD0,True,error,"[0, 0]"
+band_score_range_order::TD0,True,error,"[0, 0]"
+band_score_range_bounds::TD0,True,error,"[0, 0]"
+band_id_unique::TD1,True,error,TD1
+band_locked::TD1,True,error,locked must be true
+band_score_range_shape::TD1,True,error,"[1, 1]"
+band_score_range_order::TD1,True,error,"[1, 1]"
+band_score_range_bounds::TD1,True,error,"[1, 1]"
+band_id_unique::TD2,True,error,TD2
+band_locked::TD2,True,error,locked must be true
+band_score_range_shape::TD2,True,error,"[2, 2]"
+band_score_range_order::TD2,True,error,"[2, 2]"
+band_score_range_bounds::TD2,True,error,"[2, 2]"
+band_id_unique::TD3,True,error,TD3
+band_locked::TD3,True,error,locked must be true
+band_score_range_shape::TD3,True,error,"[3, 3]"
+band_score_range_order::TD3,True,error,"[3, 3]"
+band_score_range_bounds::TD3,True,error,"[3, 3]"
+band_id_unique::TD4,True,error,TD4
+band_locked::TD4,True,error,locked must be true
+band_score_range_shape::TD4,True,error,"[4, 4]"
+band_score_range_order::TD4,True,error,"[4, 4]"
+band_score_range_bounds::TD4,True,error,"[4, 4]"
+band_id_unique::TD5,True,error,TD5
+band_locked::TD5,True,error,locked must be true
+band_score_range_shape::TD5,True,error,"[5, 5]"
+band_score_range_order::TD5,True,error,"[5, 5]"
+band_score_range_bounds::TD5,True,error,"[5, 5]"
+rubric_id_present::C,True,error,
+rubric_id_unique::C,True,error,C
+band_count_6::C,True,error,6 bands
+band_sequence::C,True,error,"['C0', 'C1', 'C2', 'C3', 'C4', 'C5'] != ['C0', 'C1', 'C2', 'C3', 'C4', 'C5']"
+band_id_unique::C0,True,error,C0
+band_locked::C0,True,error,locked must be true
+band_score_range_shape::C0,True,error,"[0, 0]"
+band_score_range_order::C0,True,error,"[0, 0]"
+band_score_range_bounds::C0,True,error,"[0, 0]"
+band_id_unique::C1,True,error,C1
+band_locked::C1,True,error,locked must be true
+band_score_range_shape::C1,True,error,"[1, 1]"
+band_score_range_order::C1,True,error,"[1, 1]"
+band_score_range_bounds::C1,True,error,"[1, 1]"
+band_id_unique::C2,True,error,C2
+band_locked::C2,True,error,locked must be true
+band_score_range_shape::C2,True,error,"[2, 2]"
+band_score_range_order::C2,True,error,"[2, 2]"
+band_score_range_bounds::C2,True,error,"[2, 2]"
+band_id_unique::C3,True,error,C3
+band_locked::C3,True,error,locked must be true
+band_score_range_shape::C3,True,error,"[3, 3]"
+band_score_range_order::C3,True,error,"[3, 3]"
+band_score_range_bounds::C3,True,error,"[3, 3]"
+band_id_unique::C4,True,error,C4
+band_locked::C4,True,error,locked must be true
+band_score_range_shape::C4,True,error,"[4, 4]"
+band_score_range_order::C4,True,error,"[4, 4]"
+band_score_range_bounds::C4,True,error,"[4, 4]"
+band_id_unique::C5,True,error,C5
+band_locked::C5,True,error,locked must be true
+band_score_range_shape::C5,True,error,"[5, 5]"
+band_score_range_order::C5,True,error,"[5, 5]"
+band_score_range_bounds::C5,True,error,"[5, 5]"
+rubric_id_present::E,True,error,
+rubric_id_unique::E,True,error,E
+band_count_6::E,True,error,6 bands
+band_sequence::E,True,error,"['E0', 'E1', 'E2', 'E3', 'E4', 'E5'] != ['E0', 'E1', 'E2', 'E3', 'E4', 'E5']"
+band_id_unique::E0,True,error,E0
+band_locked::E0,True,error,locked must be true
+band_score_range_shape::E0,True,error,"[0, 0]"
+band_score_range_order::E0,True,error,"[0, 0]"
+band_score_range_bounds::E0,True,error,"[0, 0]"
+band_id_unique::E1,True,error,E1
+band_locked::E1,True,error,locked must be true
+band_score_range_shape::E1,True,error,"[1, 1]"
+band_score_range_order::E1,True,error,"[1, 1]"
+band_score_range_bounds::E1,True,error,"[1, 1]"
+band_id_unique::E2,True,error,E2
+band_locked::E2,True,error,locked must be true
+band_score_range_shape::E2,True,error,"[2, 2]"
+band_score_range_order::E2,True,error,"[2, 2]"
+band_score_range_bounds::E2,True,error,"[2, 2]"
+band_id_unique::E3,True,error,E3
+band_locked::E3,True,error,locked must be true
+band_score_range_shape::E3,True,error,"[3, 3]"
+band_score_range_order::E3,True,error,"[3, 3]"
+band_score_range_bounds::E3,True,error,"[3, 3]"
+band_id_unique::E4,True,error,E4
+band_locked::E4,True,error,locked must be true
+band_score_range_shape::E4,True,error,"[4, 4]"
+band_score_range_order::E4,True,error,"[4, 4]"
+band_score_range_bounds::E4,True,error,"[4, 4]"
+band_id_unique::E5,True,error,E5
+band_locked::E5,True,error,locked must be true
+band_score_range_shape::E5,True,error,"[5, 5]"
+band_score_range_order::E5,True,error,"[5, 5]"
+band_score_range_bounds::E5,True,error,"[5, 5]"
+rubric_id_present::L,True,error,
+rubric_id_unique::L,True,error,L
+band_count_6::L,True,error,6 bands
+band_sequence::L,True,error,"['L0', 'L1', 'L2', 'L3', 'L4', 'L5'] != ['L0', 'L1', 'L2', 'L3', 'L4', 'L5']"
+band_id_unique::L0,True,error,L0
+band_locked::L0,True,error,locked must be true
+band_score_range_shape::L0,True,error,"[0, 0]"
+band_score_range_order::L0,True,error,"[0, 0]"
+band_score_range_bounds::L0,True,error,"[0, 0]"
+band_id_unique::L1,True,error,L1
+band_locked::L1,True,error,locked must be true
+band_score_range_shape::L1,True,error,"[1, 1]"
+band_score_range_order::L1,True,error,"[1, 1]"
+band_score_range_bounds::L1,True,error,"[1, 1]"
+band_id_unique::L2,True,error,L2
+band_locked::L2,True,error,locked must be true
+band_score_range_shape::L2,True,error,"[2, 2]"
+band_score_range_order::L2,True,error,"[2, 2]"
+band_score_range_bounds::L2,True,error,"[2, 2]"
+band_id_unique::L3,True,error,L3
+band_locked::L3,True,error,locked must be true
+band_score_range_shape::L3,True,error,"[3, 3]"
+band_score_range_order::L3,True,error,"[3, 3]"
+band_score_range_bounds::L3,True,error,"[3, 3]"
+band_id_unique::L4,True,error,L4
+band_locked::L4,True,error,locked must be true
+band_score_range_shape::L4,True,error,"[4, 4]"
+band_score_range_order::L4,True,error,"[4, 4]"
+band_score_range_bounds::L4,True,error,"[4, 4]"
+band_id_unique::L5,True,error,L5
+band_locked::L5,True,error,locked must be true
+band_score_range_shape::L5,True,error,"[5, 5]"
+band_score_range_order::L5,True,error,"[5, 5]"
+band_score_range_bounds::L5,True,error,"[5, 5]"
+rubric_id_present::S,True,error,
+rubric_id_unique::S,True,error,S
+band_count_6::S,True,error,6 bands
+band_sequence::S,True,error,"['S0', 'S1', 'S2', 'S3', 'S4', 'S5'] != ['S0', 'S1', 'S2', 'S3', 'S4', 'S5']"
+band_id_unique::S0,True,error,S0
+band_locked::S0,True,error,locked must be true
+band_score_range_shape::S0,True,error,"[0, 0]"
+band_score_range_order::S0,True,error,"[0, 0]"
+band_score_range_bounds::S0,True,error,"[0, 0]"
+band_id_unique::S1,True,error,S1
+band_locked::S1,True,error,locked must be true
+band_score_range_shape::S1,True,error,"[1, 1]"
+band_score_range_order::S1,True,error,"[1, 1]"
+band_score_range_bounds::S1,True,error,"[1, 1]"
+band_id_unique::S2,True,error,S2
+band_locked::S2,True,error,locked must be true
+band_score_range_shape::S2,True,error,"[2, 2]"
+band_score_range_order::S2,True,error,"[2, 2]"
+band_score_range_bounds::S2,True,error,"[2, 2]"
+band_id_unique::S3,True,error,S3
+band_locked::S3,True,error,locked must be true
+band_score_range_shape::S3,True,error,"[3, 3]"
+band_score_range_order::S3,True,error,"[3, 3]"
+band_score_range_bounds::S3,True,error,"[3, 3]"
+band_id_unique::S4,True,error,S4
+band_locked::S4,True,error,locked must be true
+band_score_range_shape::S4,True,error,"[4, 4]"
+band_score_range_order::S4,True,error,"[4, 4]"
+band_score_range_bounds::S4,True,error,"[4, 4]"
+band_id_unique::S5,True,error,S5
+band_locked::S5,True,error,locked must be true
+band_score_range_shape::S5,True,error,"[5, 5]"
+band_score_range_order::S5,True,error,"[5, 5]"
+band_score_range_bounds::S5,True,error,"[5, 5]"
+rubric_id_present::B,True,error,
+rubric_id_unique::B,True,error,B
+band_count_6::B,True,error,6 bands
+band_sequence::B,True,error,"['B0', 'B1', 'B2', 'B3', 'B4', 'B5'] != ['B0', 'B1', 'B2', 'B3', 'B4', 'B5']"
+band_id_unique::B0,True,error,B0
+band_locked::B0,True,error,locked must be true
+band_score_range_shape::B0,True,error,"[0, 0]"
+band_score_range_order::B0,True,error,"[0, 0]"
+band_score_range_bounds::B0,True,error,"[0, 0]"
+band_id_unique::B1,True,error,B1
+band_locked::B1,True,error,locked must be true
+band_score_range_shape::B1,True,error,"[1, 1]"
+band_score_range_order::B1,True,error,"[1, 1]"
+band_score_range_bounds::B1,True,error,"[1, 1]"
+band_id_unique::B2,True,error,B2
+band_locked::B2,True,error,locked must be true
+band_score_range_shape::B2,True,error,"[2, 2]"
+band_score_range_order::B2,True,error,"[2, 2]"
+band_score_range_bounds::B2,True,error,"[2, 2]"
+band_id_unique::B3,True,error,B3
+band_locked::B3,True,error,locked must be true
+band_score_range_shape::B3,True,error,"[3, 3]"
+band_score_range_order::B3,True,error,"[3, 3]"
+band_score_range_bounds::B3,True,error,"[3, 3]"
+band_id_unique::B4,True,error,B4
+band_locked::B4,True,error,locked must be true
+band_score_range_shape::B4,True,error,"[4, 4]"
+band_score_range_order::B4,True,error,"[4, 4]"
+band_score_range_bounds::B4,True,error,"[4, 4]"
+band_id_unique::B5,True,error,B5
+band_locked::B5,True,error,locked must be true
+band_score_range_shape::B5,True,error,"[5, 5]"
+band_score_range_order::B5,True,error,"[5, 5]"
+band_score_range_bounds::B5,True,error,"[5, 5]"
+rubric_id_present::A,True,error,
+rubric_id_unique::A,True,error,A
+band_count_6::A,True,error,6 bands
+band_sequence::A,True,error,"['A0', 'A1', 'A2', 'A3', 'A4', 'A5'] != ['A0', 'A1', 'A2', 'A3', 'A4', 'A5']"
+band_id_unique::A0,True,error,A0
+band_locked::A0,True,error,locked must be true
+band_score_range_shape::A0,True,error,"[0, 0]"
+band_score_range_order::A0,True,error,"[0, 0]"
+band_score_range_bounds::A0,True,error,"[0, 0]"
+band_id_unique::A1,True,error,A1
+band_locked::A1,True,error,locked must be true
+band_score_range_shape::A1,True,error,"[1, 1]"
+band_score_range_order::A1,True,error,"[1, 1]"
+band_score_range_bounds::A1,True,error,"[1, 1]"
+band_id_unique::A2,True,error,A2
+band_locked::A2,True,error,locked must be true
+band_score_range_shape::A2,True,error,"[2, 2]"
+band_score_range_order::A2,True,error,"[2, 2]"
+band_score_range_bounds::A2,True,error,"[2, 2]"
+band_id_unique::A3,True,error,A3
+band_locked::A3,True,error,locked must be true
+band_score_range_shape::A3,True,error,"[3, 3]"
+band_score_range_order::A3,True,error,"[3, 3]"
+band_score_range_bounds::A3,True,error,"[3, 3]"
+band_id_unique::A4,True,error,A4
+band_locked::A4,True,error,locked must be true
+band_score_range_shape::A4,True,error,"[4, 4]"
+band_score_range_order::A4,True,error,"[4, 4]"
+band_score_range_bounds::A4,True,error,"[4, 4]"
+band_id_unique::A5,True,error,A5
+band_locked::A5,True,error,locked must be true
+band_score_range_shape::A5,True,error,"[5, 5]"
+band_score_range_order::A5,True,error,"[5, 5]"
+band_score_range_bounds::A5,True,error,"[5, 5]"
+rubric_id_present::DA,True,error,
+rubric_id_unique::DA,True,error,DA
+band_count_6::DA,True,error,6 bands
+band_sequence::DA,True,error,"['DA0', 'DA1', 'DA2', 'DA3', 'DA4', 'DA5'] != ['DA0', 'DA1', 'DA2', 'DA3', 'DA4', 'DA5']"
+band_id_unique::DA0,True,error,DA0
+band_locked::DA0,True,error,locked must be true
+band_score_range_shape::DA0,True,error,"[0, 0]"
+band_score_range_order::DA0,True,error,"[0, 0]"
+band_score_range_bounds::DA0,True,error,"[0, 0]"
+band_id_unique::DA1,True,error,DA1
+band_locked::DA1,True,error,locked must be true
+band_score_range_shape::DA1,True,error,"[1, 1]"
+band_score_range_order::DA1,True,error,"[1, 1]"
+band_score_range_bounds::DA1,True,error,"[1, 1]"
+band_id_unique::DA2,True,error,DA2
+band_locked::DA2,True,error,locked must be true
+band_score_range_shape::DA2,True,error,"[2, 2]"
+band_score_range_order::DA2,True,error,"[2, 2]"
+band_score_range_bounds::DA2,True,error,"[2, 2]"
+band_id_unique::DA3,True,error,DA3
+band_locked::DA3,True,error,locked must be true
+band_score_range_shape::DA3,True,error,"[3, 3]"
+band_score_range_order::DA3,True,error,"[3, 3]"
+band_score_range_bounds::DA3,True,error,"[3, 3]"
+band_id_unique::DA4,True,error,DA4
+band_locked::DA4,True,error,locked must be true
+band_score_range_shape::DA4,True,error,"[4, 4]"
+band_score_range_order::DA4,True,error,"[4, 4]"
+band_score_range_bounds::DA4,True,error,"[4, 4]"
+band_id_unique::DA5,True,error,DA5
+band_locked::DA5,True,error,locked must be true
+band_score_range_shape::DA5,True,error,"[5, 5]"
+band_score_range_order::DA5,True,error,"[5, 5]"
+band_score_range_bounds::DA5,True,error,"[5, 5]"
+rubric_id_present::DBc,True,error,
+rubric_id_unique::DBc,True,error,DBc
+band_count_6::DBc,True,error,6 bands
+band_sequence::DBc,True,error,"['DBc0', 'DBc1', 'DBc2', 'DBc3', 'DBc4', 'DBc5'] != ['DBc0', 'DBc1', 'DBc2', 'DBc3', 'DBc4', 'DBc5']"
+band_id_unique::DBc0,True,error,DBc0
+band_locked::DBc0,True,error,locked must be true
+band_score_range_shape::DBc0,True,error,"[0, 0]"
+band_score_range_order::DBc0,True,error,"[0, 0]"
+band_score_range_bounds::DBc0,True,error,"[0, 0]"
+band_id_unique::DBc1,True,error,DBc1
+band_locked::DBc1,True,error,locked must be true
+band_score_range_shape::DBc1,True,error,"[1, 1]"
+band_score_range_order::DBc1,True,error,"[1, 1]"
+band_score_range_bounds::DBc1,True,error,"[1, 1]"
+band_id_unique::DBc2,True,error,DBc2
+band_locked::DBc2,True,error,locked must be true
+band_score_range_shape::DBc2,True,error,"[2, 2]"
+band_score_range_order::DBc2,True,error,"[2, 2]"
+band_score_range_bounds::DBc2,True,error,"[2, 2]"
+band_id_unique::DBc3,True,error,DBc3
+band_locked::DBc3,True,error,locked must be true
+band_score_range_shape::DBc3,True,error,"[3, 3]"
+band_score_range_order::DBc3,True,error,"[3, 3]"
+band_score_range_bounds::DBc3,True,error,"[3, 3]"
+band_id_unique::DBc4,True,error,DBc4
+band_locked::DBc4,True,error,locked must be true
+band_score_range_shape::DBc4,True,error,"[4, 4]"
+band_score_range_order::DBc4,True,error,"[4, 4]"
+band_score_range_bounds::DBc4,True,error,"[4, 4]"
+band_id_unique::DBc5,True,error,DBc5
+band_locked::DBc5,True,error,locked must be true
+band_score_range_shape::DBc5,True,error,"[5, 5]"
+band_score_range_order::DBc5,True,error,"[5, 5]"
+band_score_range_bounds::DBc5,True,error,"[5, 5]"
+rubric_id_present::T,True,error,
+rubric_id_unique::T,True,error,T
+band_count_6::T,True,error,6 bands
+band_sequence::T,True,error,"['T0', 'T1', 'T2', 'T3', 'T4', 'T5'] != ['T0', 'T1', 'T2', 'T3', 'T4', 'T5']"
+band_id_unique::T0,True,error,T0
+band_locked::T0,True,error,locked must be true
+band_score_range_shape::T0,True,error,"[0, 0]"
+band_score_range_order::T0,True,error,"[0, 0]"
+band_score_range_bounds::T0,True,error,"[0, 0]"
+band_id_unique::T1,True,error,T1
+band_locked::T1,True,error,locked must be true
+band_score_range_shape::T1,True,error,"[1, 1]"
+band_score_range_order::T1,True,error,"[1, 1]"
+band_score_range_bounds::T1,True,error,"[1, 1]"
+band_id_unique::T2,True,error,T2
+band_locked::T2,True,error,locked must be true
+band_score_range_shape::T2,True,error,"[2, 2]"
+band_score_range_order::T2,True,error,"[2, 2]"
+band_score_range_bounds::T2,True,error,"[2, 2]"
+band_id_unique::T3,True,error,T3
+band_locked::T3,True,error,locked must be true
+band_score_range_shape::T3,True,error,"[3, 3]"
+band_score_range_order::T3,True,error,"[3, 3]"
+band_score_range_bounds::T3,True,error,"[3, 3]"
+band_id_unique::T4,True,error,T4
+band_locked::T4,True,error,locked must be true
+band_score_range_shape::T4,True,error,"[4, 4]"
+band_score_range_order::T4,True,error,"[4, 4]"
+band_score_range_bounds::T4,True,error,"[4, 4]"
+band_id_unique::T5,True,error,T5
+band_locked::T5,True,error,locked must be true
+band_score_range_shape::T5,True,error,"[5, 5]"
+band_score_range_order::T5,True,error,"[5, 5]"
+band_score_range_bounds::T5,True,error,"[5, 5]"
+rubric_id_present::VC,True,error,
+rubric_id_unique::VC,True,error,VC
+band_count_6::VC,True,error,6 bands
+band_sequence::VC,True,error,"['VC0', 'VC1', 'VC2', 'VC3', 'VC4', 'VC5'] != ['VC0', 'VC1', 'VC2', 'VC3', 'VC4', 'VC5']"
+band_id_unique::VC0,True,error,VC0
+band_locked::VC0,True,error,locked must be true
+band_score_range_shape::VC0,True,error,"[0, 0]"
+band_score_range_order::VC0,True,error,"[0, 0]"
+band_score_range_bounds::VC0,True,error,"[0, 0]"
+band_id_unique::VC1,True,error,VC1
+band_locked::VC1,True,error,locked must be true
+band_score_range_shape::VC1,True,error,"[1, 1]"
+band_score_range_order::VC1,True,error,"[1, 1]"
+band_score_range_bounds::VC1,True,error,"[1, 1]"
+band_id_unique::VC2,True,error,VC2
+band_locked::VC2,True,error,locked must be true
+band_score_range_shape::VC2,True,error,"[2, 2]"
+band_score_range_order::VC2,True,error,"[2, 2]"
+band_score_range_bounds::VC2,True,error,"[2, 2]"
+band_id_unique::VC3,True,error,VC3
+band_locked::VC3,True,error,locked must be true
+band_score_range_shape::VC3,True,error,"[3, 3]"
+band_score_range_order::VC3,True,error,"[3, 3]"
+band_score_range_bounds::VC3,True,error,"[3, 3]"
+band_id_unique::VC4,True,error,VC4
+band_locked::VC4,True,error,locked must be true
+band_score_range_shape::VC4,True,error,"[4, 4]"
+band_score_range_order::VC4,True,error,"[4, 4]"
+band_score_range_bounds::VC4,True,error,"[4, 4]"
+band_id_unique::VC5,True,error,VC5
+band_locked::VC5,True,error,locked must be true
+band_score_range_shape::VC5,True,error,"[5, 5]"
+band_score_range_order::VC5,True,error,"[5, 5]"
+band_score_range_bounds::VC5,True,error,"[5, 5]"
+rubric_id_present::VM,True,error,
+rubric_id_unique::VM,True,error,VM
+band_count_6::VM,True,error,6 bands
+band_sequence::VM,True,error,"['VM0', 'VM1', 'VM2', 'VM3', 'VM4', 'VM5'] != ['VM0', 'VM1', 'VM2', 'VM3', 'VM4', 'VM5']"
+band_id_unique::VM0,True,error,VM0
+band_locked::VM0,True,error,locked must be true
+band_score_range_shape::VM0,True,error,"[0, 0]"
+band_score_range_order::VM0,True,error,"[0, 0]"
+band_score_range_bounds::VM0,True,error,"[0, 0]"
+band_id_unique::VM1,True,error,VM1
+band_locked::VM1,True,error,locked must be true
+band_score_range_shape::VM1,True,error,"[1, 1]"
+band_score_range_order::VM1,True,error,"[1, 1]"
+band_score_range_bounds::VM1,True,error,"[1, 1]"
+band_id_unique::VM2,True,error,VM2
+band_locked::VM2,True,error,locked must be true
+band_score_range_shape::VM2,True,error,"[2, 2]"
+band_score_range_order::VM2,True,error,"[2, 2]"
+band_score_range_bounds::VM2,True,error,"[2, 2]"
+band_id_unique::VM3,True,error,VM3
+band_locked::VM3,True,error,locked must be true
+band_score_range_shape::VM3,True,error,"[3, 3]"
+band_score_range_order::VM3,True,error,"[3, 3]"
+band_score_range_bounds::VM3,True,error,"[3, 3]"
+band_id_unique::VM4,True,error,VM4
+band_locked::VM4,True,error,locked must be true
+band_score_range_shape::VM4,True,error,"[4, 4]"
+band_score_range_order::VM4,True,error,"[4, 4]"
+band_score_range_bounds::VM4,True,error,"[4, 4]"
+band_id_unique::VM5,True,error,VM5
+band_locked::VM5,True,error,locked must be true
+band_score_range_shape::VM5,True,error,"[5, 5]"
+band_score_range_order::VM5,True,error,"[5, 5]"
+band_score_range_bounds::VM5,True,error,"[5, 5]"
+rubric_id_present::VS,True,error,
+rubric_id_unique::VS,True,error,VS
+band_count_6::VS,True,error,6 bands
+band_sequence::VS,True,error,"['VS0', 'VS1', 'VS2', 'VS3', 'VS4', 'VS5'] != ['VS0', 'VS1', 'VS2', 'VS3', 'VS4', 'VS5']"
+band_id_unique::VS0,True,error,VS0
+band_locked::VS0,True,error,locked must be true
+band_score_range_shape::VS0,True,error,"[0, 0]"
+band_score_range_order::VS0,True,error,"[0, 0]"
+band_score_range_bounds::VS0,True,error,"[0, 0]"
+band_id_unique::VS1,True,error,VS1
+band_locked::VS1,True,error,locked must be true
+band_score_range_shape::VS1,True,error,"[1, 1]"
+band_score_range_order::VS1,True,error,"[1, 1]"
+band_score_range_bounds::VS1,True,error,"[1, 1]"
+band_id_unique::VS2,True,error,VS2
+band_locked::VS2,True,error,locked must be true
+band_score_range_shape::VS2,True,error,"[2, 2]"
+band_score_range_order::VS2,True,error,"[2, 2]"
+band_score_range_bounds::VS2,True,error,"[2, 2]"
+band_id_unique::VS3,True,error,VS3
+band_locked::VS3,True,error,locked must be true
+band_score_range_shape::VS3,True,error,"[3, 3]"
+band_score_range_order::VS3,True,error,"[3, 3]"
+band_score_range_bounds::VS3,True,error,"[3, 3]"
+band_id_unique::VS4,True,error,VS4
+band_locked::VS4,True,error,locked must be true
+band_score_range_shape::VS4,True,error,"[4, 4]"
+band_score_range_order::VS4,True,error,"[4, 4]"
+band_score_range_bounds::VS4,True,error,"[4, 4]"
+band_id_unique::VS5,True,error,VS5
+band_locked::VS5,True,error,locked must be true
+band_score_range_shape::VS5,True,error,"[5, 5]"
+band_score_range_order::VS5,True,error,"[5, 5]"
+band_score_range_bounds::VS5,True,error,"[5, 5]"
+rubric_id_present::VA,True,error,
+rubric_id_unique::VA,True,error,VA
+band_count_6::VA,True,error,6 bands
+band_sequence::VA,True,error,"['VA0', 'VA1', 'VA2', 'VA3', 'VA4', 'VA5'] != ['VA0', 'VA1', 'VA2', 'VA3', 'VA4', 'VA5']"
+band_id_unique::VA0,True,error,VA0
+band_locked::VA0,True,error,locked must be true
+band_score_range_shape::VA0,True,error,"[0, 0]"
+band_score_range_order::VA0,True,error,"[0, 0]"
+band_score_range_bounds::VA0,True,error,"[0, 0]"
+band_id_unique::VA1,True,error,VA1
+band_locked::VA1,True,error,locked must be true
+band_score_range_shape::VA1,True,error,"[1, 1]"
+band_score_range_order::VA1,True,error,"[1, 1]"
+band_score_range_bounds::VA1,True,error,"[1, 1]"
+band_id_unique::VA2,True,error,VA2
+band_locked::VA2,True,error,locked must be true
+band_score_range_shape::VA2,True,error,"[2, 2]"
+band_score_range_order::VA2,True,error,"[2, 2]"
+band_score_range_bounds::VA2,True,error,"[2, 2]"
+band_id_unique::VA3,True,error,VA3
+band_locked::VA3,True,error,locked must be true
+band_score_range_shape::VA3,True,error,"[3, 3]"
+band_score_range_order::VA3,True,error,"[3, 3]"
+band_score_range_bounds::VA3,True,error,"[3, 3]"
+band_id_unique::VA4,True,error,VA4
+band_locked::VA4,True,error,locked must be true
+band_score_range_shape::VA4,True,error,"[4, 4]"
+band_score_range_order::VA4,True,error,"[4, 4]"
+band_score_range_bounds::VA4,True,error,"[4, 4]"
+band_id_unique::VA5,True,error,VA5
+band_locked::VA5,True,error,locked must be true
+band_score_range_shape::VA5,True,error,"[5, 5]"
+band_score_range_order::VA5,True,error,"[5, 5]"
+band_score_range_bounds::VA5,True,error,"[5, 5]"
+rubric_id_present::K,True,error,
+rubric_id_unique::K,True,error,K
+band_count_6::K,True,error,6 bands
+band_sequence::K,True,error,"['K0', 'K1', 'K2', 'K3', 'K4', 'K5'] != ['K0', 'K1', 'K2', 'K3', 'K4', 'K5']"
+band_id_unique::K0,True,error,K0
+band_locked::K0,True,error,locked must be true
+band_score_range_shape::K0,True,error,"[0, 0]"
+band_score_range_order::K0,True,error,"[0, 0]"
+band_score_range_bounds::K0,True,error,"[0, 0]"
+band_id_unique::K1,True,error,K1
+band_locked::K1,True,error,locked must be true
+band_score_range_shape::K1,True,error,"[1, 1]"
+band_score_range_order::K1,True,error,"[1, 1]"
+band_score_range_bounds::K1,True,error,"[1, 1]"
+band_id_unique::K2,True,error,K2
+band_locked::K2,True,error,locked must be true
+band_score_range_shape::K2,True,error,"[2, 2]"
+band_score_range_order::K2,True,error,"[2, 2]"
+band_score_range_bounds::K2,True,error,"[2, 2]"
+band_id_unique::K3,True,error,K3
+band_locked::K3,True,error,locked must be true
+band_score_range_shape::K3,True,error,"[3, 3]"
+band_score_range_order::K3,True,error,"[3, 3]"
+band_score_range_bounds::K3,True,error,"[3, 3]"
+band_id_unique::K4,True,error,K4
+band_locked::K4,True,error,locked must be true
+band_score_range_shape::K4,True,error,"[4, 4]"
+band_score_range_order::K4,True,error,"[4, 4]"
+band_score_range_bounds::K4,True,error,"[4, 4]"
+band_id_unique::K5,True,error,K5
+band_locked::K5,True,error,locked must be true
+band_score_range_shape::K5,True,error,"[5, 5]"
+band_score_range_order::K5,True,error,"[5, 5]"
+band_score_range_bounds::K5,True,error,"[5, 5]"
+rubric_id_present::X,True,error,
+rubric_id_unique::X,True,error,X
+band_count_6::X,True,error,6 bands
+band_sequence::X,True,error,"['X0', 'X1', 'X2', 'X3', 'X4', 'X5'] != ['X0', 'X1', 'X2', 'X3', 'X4', 'X5']"
+band_id_unique::X0,True,error,X0
+band_locked::X0,True,error,locked must be true
+band_score_range_shape::X0,True,error,"[0, 0]"
+band_score_range_order::X0,True,error,"[0, 0]"
+band_score_range_bounds::X0,True,error,"[0, 0]"
+band_id_unique::X1,True,error,X1
+band_locked::X1,True,error,locked must be true
+band_score_range_shape::X1,True,error,"[1, 1]"
+band_score_range_order::X1,True,error,"[1, 1]"
+band_score_range_bounds::X1,True,error,"[1, 1]"
+band_id_unique::X2,True,error,X2
+band_locked::X2,True,error,locked must be true
+band_score_range_shape::X2,True,error,"[2, 2]"
+band_score_range_order::X2,True,error,"[2, 2]"
+band_score_range_bounds::X2,True,error,"[2, 2]"
+band_id_unique::X3,True,error,X3
+band_locked::X3,True,error,locked must be true
+band_score_range_shape::X3,True,error,"[3, 3]"
+band_score_range_order::X3,True,error,"[3, 3]"
+band_score_range_bounds::X3,True,error,"[3, 3]"
+band_id_unique::X4,True,error,X4
+band_locked::X4,True,error,locked must be true
+band_score_range_shape::X4,True,error,"[4, 4]"
+band_score_range_order::X4,True,error,"[4, 4]"
+band_score_range_bounds::X4,True,error,"[4, 4]"
+band_id_unique::X5,True,error,X5
+band_locked::X5,True,error,locked must be true
+band_score_range_shape::X5,True,error,"[5, 5]"
+band_score_range_order::X5,True,error,"[5, 5]"
+band_score_range_bounds::X5,True,error,"[5, 5]"
+rubric_id_present::Ad,True,error,
+rubric_id_unique::Ad,True,error,Ad
+band_count_6::Ad,True,error,6 bands
+band_sequence::Ad,True,error,"['Ad0', 'Ad1', 'Ad2', 'Ad3', 'Ad4', 'Ad5'] != ['Ad0', 'Ad1', 'Ad2', 'Ad3', 'Ad4', 'Ad5']"
+band_id_unique::Ad0,True,error,Ad0
+band_locked::Ad0,True,error,locked must be true
+band_score_range_shape::Ad0,True,error,"[0, 0]"
+band_score_range_order::Ad0,True,error,"[0, 0]"
+band_score_range_bounds::Ad0,True,error,"[0, 0]"
+band_id_unique::Ad1,True,error,Ad1
+band_locked::Ad1,True,error,locked must be true
+band_score_range_shape::Ad1,True,error,"[1, 1]"
+band_score_range_order::Ad1,True,error,"[1, 1]"
+band_score_range_bounds::Ad1,True,error,"[1, 1]"
+band_id_unique::Ad2,True,error,Ad2
+band_locked::Ad2,True,error,locked must be true
+band_score_range_shape::Ad2,True,error,"[2, 2]"
+band_score_range_order::Ad2,True,error,"[2, 2]"
+band_score_range_bounds::Ad2,True,error,"[2, 2]"
+band_id_unique::Ad3,True,error,Ad3
+band_locked::Ad3,True,error,locked must be true
+band_score_range_shape::Ad3,True,error,"[3, 3]"
+band_score_range_order::Ad3,True,error,"[3, 3]"
+band_score_range_bounds::Ad3,True,error,"[3, 3]"
+band_id_unique::Ad4,True,error,Ad4
+band_locked::Ad4,True,error,locked must be true
+band_score_range_shape::Ad4,True,error,"[4, 4]"
+band_score_range_order::Ad4,True,error,"[4, 4]"
+band_score_range_bounds::Ad4,True,error,"[4, 4]"
+band_id_unique::Ad5,True,error,Ad5
+band_locked::Ad5,True,error,locked must be true
+band_score_range_shape::Ad5,True,error,"[5, 5]"
+band_score_range_order::Ad5,True,error,"[5, 5]"
+band_score_range_bounds::Ad5,True,error,"[5, 5]"
+band_count_108,True,error,108 bands found
+microdescriptor_count_108,True,error,108 descriptors found
+microdescriptor_band_exists::MD_P0,True,error,P0
+microdescriptor_no_direct_band_set::MD_P0,True,error,False
+microdescriptor_band_exists::MD_P1,True,error,P1
+microdescriptor_no_direct_band_set::MD_P1,True,error,False
+microdescriptor_band_exists::MD_P2,True,error,P2
+microdescriptor_no_direct_band_set::MD_P2,True,error,False
+microdescriptor_band_exists::MD_P3,True,error,P3
+microdescriptor_no_direct_band_set::MD_P3,True,error,False
+microdescriptor_band_exists::MD_P4,True,error,P4
+microdescriptor_no_direct_band_set::MD_P4,True,error,False
+microdescriptor_band_exists::MD_P5,True,error,P5
+microdescriptor_no_direct_band_set::MD_P5,True,error,False
+microdescriptor_band_exists::MD_TD0,True,error,TD0
+microdescriptor_no_direct_band_set::MD_TD0,True,error,False
+microdescriptor_band_exists::MD_TD1,True,error,TD1
+microdescriptor_no_direct_band_set::MD_TD1,True,error,False
+microdescriptor_band_exists::MD_TD2,True,error,TD2
+microdescriptor_no_direct_band_set::MD_TD2,True,error,False
+microdescriptor_band_exists::MD_TD3,True,error,TD3
+microdescriptor_no_direct_band_set::MD_TD3,True,error,False
+microdescriptor_band_exists::MD_TD4,True,error,TD4
+microdescriptor_no_direct_band_set::MD_TD4,True,error,False
+microdescriptor_band_exists::MD_TD5,True,error,TD5
+microdescriptor_no_direct_band_set::MD_TD5,True,error,False
+microdescriptor_band_exists::MD_C0,True,error,C0
+microdescriptor_no_direct_band_set::MD_C0,True,error,False
+microdescriptor_band_exists::MD_C1,True,error,C1
+microdescriptor_no_direct_band_set::MD_C1,True,error,False
+microdescriptor_band_exists::MD_C2,True,error,C2
+microdescriptor_no_direct_band_set::MD_C2,True,error,False
+microdescriptor_band_exists::MD_C3,True,error,C3
+microdescriptor_no_direct_band_set::MD_C3,True,error,False
+microdescriptor_band_exists::MD_C4,True,error,C4
+microdescriptor_no_direct_band_set::MD_C4,True,error,False
+microdescriptor_band_exists::MD_C5,True,error,C5
+microdescriptor_no_direct_band_set::MD_C5,True,error,False
+microdescriptor_band_exists::MD_E0,True,error,E0
+microdescriptor_no_direct_band_set::MD_E0,True,error,False
+microdescriptor_band_exists::MD_E1,True,error,E1
+microdescriptor_no_direct_band_set::MD_E1,True,error,False
+microdescriptor_band_exists::MD_E2,True,error,E2
+microdescriptor_no_direct_band_set::MD_E2,True,error,False
+microdescriptor_band_exists::MD_E3,True,error,E3
+microdescriptor_no_direct_band_set::MD_E3,True,error,False
+microdescriptor_band_exists::MD_E4,True,error,E4
+microdescriptor_no_direct_band_set::MD_E4,True,error,False
+microdescriptor_band_exists::MD_E5,True,error,E5
+microdescriptor_no_direct_band_set::MD_E5,True,error,False
+microdescriptor_band_exists::MD_L0,True,error,L0
+microdescriptor_no_direct_band_set::MD_L0,True,error,False
+microdescriptor_band_exists::MD_L1,True,error,L1
+microdescriptor_no_direct_band_set::MD_L1,True,error,False
+microdescriptor_band_exists::MD_L2,True,error,L2
+microdescriptor_no_direct_band_set::MD_L2,True,error,False
+microdescriptor_band_exists::MD_L3,True,error,L3
+microdescriptor_no_direct_band_set::MD_L3,True,error,False
+microdescriptor_band_exists::MD_L4,True,error,L4
+microdescriptor_no_direct_band_set::MD_L4,True,error,False
+microdescriptor_band_exists::MD_L5,True,error,L5
+microdescriptor_no_direct_band_set::MD_L5,True,error,False
+microdescriptor_band_exists::MD_S0,True,error,S0
+microdescriptor_no_direct_band_set::MD_S0,True,error,False
+microdescriptor_band_exists::MD_S1,True,error,S1
+microdescriptor_no_direct_band_set::MD_S1,True,error,False
+microdescriptor_band_exists::MD_S2,True,error,S2
+microdescriptor_no_direct_band_set::MD_S2,True,error,False
+microdescriptor_band_exists::MD_S3,True,error,S3
+microdescriptor_no_direct_band_set::MD_S3,True,error,False
+microdescriptor_band_exists::MD_S4,True,error,S4
+microdescriptor_no_direct_band_set::MD_S4,True,error,False
+microdescriptor_band_exists::MD_S5,True,error,S5
+microdescriptor_no_direct_band_set::MD_S5,True,error,False
+microdescriptor_band_exists::MD_B0,True,error,B0
+microdescriptor_no_direct_band_set::MD_B0,True,error,False
+microdescriptor_band_exists::MD_B1,True,error,B1
+microdescriptor_no_direct_band_set::MD_B1,True,error,False
+microdescriptor_band_exists::MD_B2,True,error,B2
+microdescriptor_no_direct_band_set::MD_B2,True,error,False
+microdescriptor_band_exists::MD_B3,True,error,B3
+microdescriptor_no_direct_band_set::MD_B3,True,error,False
+microdescriptor_band_exists::MD_B4,True,error,B4
+microdescriptor_no_direct_band_set::MD_B4,True,error,False
+microdescriptor_band_exists::MD_B5,True,error,B5
+microdescriptor_no_direct_band_set::MD_B5,True,error,False
+microdescriptor_band_exists::MD_A0,True,error,A0
+microdescriptor_no_direct_band_set::MD_A0,True,error,False
+microdescriptor_band_exists::MD_A1,True,error,A1
+microdescriptor_no_direct_band_set::MD_A1,True,error,False
+microdescriptor_band_exists::MD_A2,True,error,A2
+microdescriptor_no_direct_band_set::MD_A2,True,error,False
+microdescriptor_band_exists::MD_A3,True,error,A3
+microdescriptor_no_direct_band_set::MD_A3,True,error,False
+microdescriptor_band_exists::MD_A4,True,error,A4
+microdescriptor_no_direct_band_set::MD_A4,True,error,False
+microdescriptor_band_exists::MD_A5,True,error,A5
+microdescriptor_no_direct_band_set::MD_A5,True,error,False
+microdescriptor_band_exists::MD_DA0,True,error,DA0
+microdescriptor_no_direct_band_set::MD_DA0,True,error,False
+microdescriptor_band_exists::MD_DA1,True,error,DA1
+microdescriptor_no_direct_band_set::MD_DA1,True,error,False
+microdescriptor_band_exists::MD_DA2,True,error,DA2
+microdescriptor_no_direct_band_set::MD_DA2,True,error,False
+microdescriptor_band_exists::MD_DA3,True,error,DA3
+microdescriptor_no_direct_band_set::MD_DA3,True,error,False
+microdescriptor_band_exists::MD_DA4,True,error,DA4
+microdescriptor_no_direct_band_set::MD_DA4,True,error,False
+microdescriptor_band_exists::MD_DA5,True,error,DA5
+microdescriptor_no_direct_band_set::MD_DA5,True,error,False
+microdescriptor_band_exists::MD_DBc0,True,error,DBc0
+microdescriptor_no_direct_band_set::MD_DBc0,True,error,False
+microdescriptor_band_exists::MD_DBc1,True,error,DBc1
+microdescriptor_no_direct_band_set::MD_DBc1,True,error,False
+microdescriptor_band_exists::MD_DBc2,True,error,DBc2
+microdescriptor_no_direct_band_set::MD_DBc2,True,error,False
+microdescriptor_band_exists::MD_DBc3,True,error,DBc3
+microdescriptor_no_direct_band_set::MD_DBc3,True,error,False
+microdescriptor_band_exists::MD_DBc4,True,error,DBc4
+microdescriptor_no_direct_band_set::MD_DBc4,True,error,False
+microdescriptor_band_exists::MD_DBc5,True,error,DBc5
+microdescriptor_no_direct_band_set::MD_DBc5,True,error,False
+microdescriptor_band_exists::MD_T0,True,error,T0
+microdescriptor_no_direct_band_set::MD_T0,True,error,False
+microdescriptor_band_exists::MD_T1,True,error,T1
+microdescriptor_no_direct_band_set::MD_T1,True,error,False
+microdescriptor_band_exists::MD_T2,True,error,T2
+microdescriptor_no_direct_band_set::MD_T2,True,error,False
+microdescriptor_band_exists::MD_T3,True,error,T3
+microdescriptor_no_direct_band_set::MD_T3,True,error,False
+microdescriptor_band_exists::MD_T4,True,error,T4
+microdescriptor_no_direct_band_set::MD_T4,True,error,False
+microdescriptor_band_exists::MD_T5,True,error,T5
+microdescriptor_no_direct_band_set::MD_T5,True,error,False
+microdescriptor_band_exists::MD_VC0,True,error,VC0
+microdescriptor_no_direct_band_set::MD_VC0,True,error,False
+microdescriptor_band_exists::MD_VC1,True,error,VC1
+microdescriptor_no_direct_band_set::MD_VC1,True,error,False
+microdescriptor_band_exists::MD_VC2,True,error,VC2
+microdescriptor_no_direct_band_set::MD_VC2,True,error,False
+microdescriptor_band_exists::MD_VC3,True,error,VC3
+microdescriptor_no_direct_band_set::MD_VC3,True,error,False
+microdescriptor_band_exists::MD_VC4,True,error,VC4
+microdescriptor_no_direct_band_set::MD_VC4,True,error,False
+microdescriptor_band_exists::MD_VC5,True,error,VC5
+microdescriptor_no_direct_band_set::MD_VC5,True,error,False
+microdescriptor_band_exists::MD_VM0,True,error,VM0
+microdescriptor_no_direct_band_set::MD_VM0,True,error,False
+microdescriptor_band_exists::MD_VM1,True,error,VM1
+microdescriptor_no_direct_band_set::MD_VM1,True,error,False
+microdescriptor_band_exists::MD_VM2,True,error,VM2
+microdescriptor_no_direct_band_set::MD_VM2,True,error,False
+microdescriptor_band_exists::MD_VM3,True,error,VM3
+microdescriptor_no_direct_band_set::MD_VM3,True,error,False
+microdescriptor_band_exists::MD_VM4,True,error,VM4
+microdescriptor_no_direct_band_set::MD_VM4,True,error,False
+microdescriptor_band_exists::MD_VM5,True,error,VM5
+microdescriptor_no_direct_band_set::MD_VM5,True,error,False
+microdescriptor_band_exists::MD_VS0,True,error,VS0
+microdescriptor_no_direct_band_set::MD_VS0,True,error,False
+microdescriptor_band_exists::MD_VS1,True,error,VS1
+microdescriptor_no_direct_band_set::MD_VS1,True,error,False
+microdescriptor_band_exists::MD_VS2,True,error,VS2
+microdescriptor_no_direct_band_set::MD_VS2,True,error,False
+microdescriptor_band_exists::MD_VS3,True,error,VS3
+microdescriptor_no_direct_band_set::MD_VS3,True,error,False
+microdescriptor_band_exists::MD_VS4,True,error,VS4
+microdescriptor_no_direct_band_set::MD_VS4,True,error,False
+microdescriptor_band_exists::MD_VS5,True,error,VS5
+microdescriptor_no_direct_band_set::MD_VS5,True,error,False
+microdescriptor_band_exists::MD_VA0,True,error,VA0
+microdescriptor_no_direct_band_set::MD_VA0,True,error,False
+microdescriptor_band_exists::MD_VA1,True,error,VA1
+microdescriptor_no_direct_band_set::MD_VA1,True,error,False
+microdescriptor_band_exists::MD_VA2,True,error,VA2
+microdescriptor_no_direct_band_set::MD_VA2,True,error,False
+microdescriptor_band_exists::MD_VA3,True,error,VA3
+microdescriptor_no_direct_band_set::MD_VA3,True,error,False
+microdescriptor_band_exists::MD_VA4,True,error,VA4
+microdescriptor_no_direct_band_set::MD_VA4,True,error,False
+microdescriptor_band_exists::MD_VA5,True,error,VA5
+microdescriptor_no_direct_band_set::MD_VA5,True,error,False
+microdescriptor_band_exists::MD_K0,True,error,K0
+microdescriptor_no_direct_band_set::MD_K0,True,error,False
+microdescriptor_band_exists::MD_K1,True,error,K1
+microdescriptor_no_direct_band_set::MD_K1,True,error,False
+microdescriptor_band_exists::MD_K2,True,error,K2
+microdescriptor_no_direct_band_set::MD_K2,True,error,False
+microdescriptor_band_exists::MD_K3,True,error,K3
+microdescriptor_no_direct_band_set::MD_K3,True,error,False
+microdescriptor_band_exists::MD_K4,True,error,K4
+microdescriptor_no_direct_band_set::MD_K4,True,error,False
+microdescriptor_band_exists::MD_K5,True,error,K5
+microdescriptor_no_direct_band_set::MD_K5,True,error,False
+microdescriptor_band_exists::MD_X0,True,error,X0
+microdescriptor_no_direct_band_set::MD_X0,True,error,False
+microdescriptor_band_exists::MD_X1,True,error,X1
+microdescriptor_no_direct_band_set::MD_X1,True,error,False
+microdescriptor_band_exists::MD_X2,True,error,X2
+microdescriptor_no_direct_band_set::MD_X2,True,error,False
+microdescriptor_band_exists::MD_X3,True,error,X3
+microdescriptor_no_direct_band_set::MD_X3,True,error,False
+microdescriptor_band_exists::MD_X4,True,error,X4
+microdescriptor_no_direct_band_set::MD_X4,True,error,False
+microdescriptor_band_exists::MD_X5,True,error,X5
+microdescriptor_no_direct_band_set::MD_X5,True,error,False
+microdescriptor_band_exists::MD_Ad0,True,error,Ad0
+microdescriptor_no_direct_band_set::MD_Ad0,True,error,False
+microdescriptor_band_exists::MD_Ad1,True,error,Ad1
+microdescriptor_no_direct_band_set::MD_Ad1,True,error,False
+microdescriptor_band_exists::MD_Ad2,True,error,Ad2
+microdescriptor_no_direct_band_set::MD_Ad2,True,error,False
+microdescriptor_band_exists::MD_Ad3,True,error,Ad3
+microdescriptor_no_direct_band_set::MD_Ad3,True,error,False
+microdescriptor_band_exists::MD_Ad4,True,error,Ad4
+microdescriptor_no_direct_band_set::MD_Ad4,True,error,False
+microdescriptor_band_exists::MD_Ad5,True,error,Ad5
+microdescriptor_no_direct_band_set::MD_Ad5,True,error,False
+band_microdescriptor_ref_exists::P0,True,error,MD_P0
+band_microdescriptor_ref_exists::P1,True,error,MD_P1
+band_microdescriptor_ref_exists::P2,True,error,MD_P2
+band_microdescriptor_ref_exists::P3,True,error,MD_P3
+band_microdescriptor_ref_exists::P4,True,error,MD_P4
+band_microdescriptor_ref_exists::P5,True,error,MD_P5
+band_microdescriptor_ref_exists::TD0,True,error,MD_TD0
+band_microdescriptor_ref_exists::TD1,True,error,MD_TD1
+band_microdescriptor_ref_exists::TD2,True,error,MD_TD2
+band_microdescriptor_ref_exists::TD3,True,error,MD_TD3
+band_microdescriptor_ref_exists::TD4,True,error,MD_TD4
+band_microdescriptor_ref_exists::TD5,True,error,MD_TD5
+band_microdescriptor_ref_exists::C0,True,error,MD_C0
+band_microdescriptor_ref_exists::C1,True,error,MD_C1
+band_microdescriptor_ref_exists::C2,True,error,MD_C2
+band_microdescriptor_ref_exists::C3,True,error,MD_C3
+band_microdescriptor_ref_exists::C4,True,error,MD_C4
+band_microdescriptor_ref_exists::C5,True,error,MD_C5
+band_microdescriptor_ref_exists::E0,True,error,MD_E0
+band_microdescriptor_ref_exists::E1,True,error,MD_E1
+band_microdescriptor_ref_exists::E2,True,error,MD_E2
+band_microdescriptor_ref_exists::E3,True,error,MD_E3
+band_microdescriptor_ref_exists::E4,True,error,MD_E4
+band_microdescriptor_ref_exists::E5,True,error,MD_E5
+band_microdescriptor_ref_exists::L0,True,error,MD_L0
+band_microdescriptor_ref_exists::L1,True,error,MD_L1
+band_microdescriptor_ref_exists::L2,True,error,MD_L2
+band_microdescriptor_ref_exists::L3,True,error,MD_L3
+band_microdescriptor_ref_exists::L4,True,error,MD_L4
+band_microdescriptor_ref_exists::L5,True,error,MD_L5
+band_microdescriptor_ref_exists::S0,True,error,MD_S0
+band_microdescriptor_ref_exists::S1,True,error,MD_S1
+band_microdescriptor_ref_exists::S2,True,error,MD_S2
+band_microdescriptor_ref_exists::S3,True,error,MD_S3
+band_microdescriptor_ref_exists::S4,True,error,MD_S4
+band_microdescriptor_ref_exists::S5,True,error,MD_S5
+band_microdescriptor_ref_exists::B0,True,error,MD_B0
+band_microdescriptor_ref_exists::B1,True,error,MD_B1
+band_microdescriptor_ref_exists::B2,True,error,MD_B2
+band_microdescriptor_ref_exists::B3,True,error,MD_B3
+band_microdescriptor_ref_exists::B4,True,error,MD_B4
+band_microdescriptor_ref_exists::B5,True,error,MD_B5
+band_microdescriptor_ref_exists::A0,True,error,MD_A0
+band_microdescriptor_ref_exists::A1,True,error,MD_A1
+band_microdescriptor_ref_exists::A2,True,error,MD_A2
+band_microdescriptor_ref_exists::A3,True,error,MD_A3
+band_microdescriptor_ref_exists::A4,True,error,MD_A4
+band_microdescriptor_ref_exists::A5,True,error,MD_A5
+band_microdescriptor_ref_exists::DA0,True,error,MD_DA0
+band_microdescriptor_ref_exists::DA1,True,error,MD_DA1
+band_microdescriptor_ref_exists::DA2,True,error,MD_DA2
+band_microdescriptor_ref_exists::DA3,True,error,MD_DA3
+band_microdescriptor_ref_exists::DA4,True,error,MD_DA4
+band_microdescriptor_ref_exists::DA5,True,error,MD_DA5
+band_microdescriptor_ref_exists::DBc0,True,error,MD_DBc0
+band_microdescriptor_ref_exists::DBc1,True,error,MD_DBc1
+band_microdescriptor_ref_exists::DBc2,True,error,MD_DBc2
+band_microdescriptor_ref_exists::DBc3,True,error,MD_DBc3
+band_microdescriptor_ref_exists::DBc4,True,error,MD_DBc4
+band_microdescriptor_ref_exists::DBc5,True,error,MD_DBc5
+band_microdescriptor_ref_exists::T0,True,error,MD_T0
+band_microdescriptor_ref_exists::T1,True,error,MD_T1
+band_microdescriptor_ref_exists::T2,True,error,MD_T2
+band_microdescriptor_ref_exists::T3,True,error,MD_T3
+band_microdescriptor_ref_exists::T4,True,error,MD_T4
+band_microdescriptor_ref_exists::T5,True,error,MD_T5
+band_microdescriptor_ref_exists::VC0,True,error,MD_VC0
+band_microdescriptor_ref_exists::VC1,True,error,MD_VC1
+band_microdescriptor_ref_exists::VC2,True,error,MD_VC2
+band_microdescriptor_ref_exists::VC3,True,error,MD_VC3
+band_microdescriptor_ref_exists::VC4,True,error,MD_VC4
+band_microdescriptor_ref_exists::VC5,True,error,MD_VC5
+band_microdescriptor_ref_exists::VM0,True,error,MD_VM0
+band_microdescriptor_ref_exists::VM1,True,error,MD_VM1
+band_microdescriptor_ref_exists::VM2,True,error,MD_VM2
+band_microdescriptor_ref_exists::VM3,True,error,MD_VM3
+band_microdescriptor_ref_exists::VM4,True,error,MD_VM4
+band_microdescriptor_ref_exists::VM5,True,error,MD_VM5
+band_microdescriptor_ref_exists::VS0,True,error,MD_VS0
+band_microdescriptor_ref_exists::VS1,True,error,MD_VS1
+band_microdescriptor_ref_exists::VS2,True,error,MD_VS2
+band_microdescriptor_ref_exists::VS3,True,error,MD_VS3
+band_microdescriptor_ref_exists::VS4,True,error,MD_VS4
+band_microdescriptor_ref_exists::VS5,True,error,MD_VS5
+band_microdescriptor_ref_exists::VA0,True,error,MD_VA0
+band_microdescriptor_ref_exists::VA1,True,error,MD_VA1
+band_microdescriptor_ref_exists::VA2,True,error,MD_VA2
+band_microdescriptor_ref_exists::VA3,True,error,MD_VA3
+band_microdescriptor_ref_exists::VA4,True,error,MD_VA4
+band_microdescriptor_ref_exists::VA5,True,error,MD_VA5
+band_microdescriptor_ref_exists::K0,True,error,MD_K0
+band_microdescriptor_ref_exists::K1,True,error,MD_K1
+band_microdescriptor_ref_exists::K2,True,error,MD_K2
+band_microdescriptor_ref_exists::K3,True,error,MD_K3
+band_microdescriptor_ref_exists::K4,True,error,MD_K4
+band_microdescriptor_ref_exists::K5,True,error,MD_K5
+band_microdescriptor_ref_exists::X0,True,error,MD_X0
+band_microdescriptor_ref_exists::X1,True,error,MD_X1
+band_microdescriptor_ref_exists::X2,True,error,MD_X2
+band_microdescriptor_ref_exists::X3,True,error,MD_X3
+band_microdescriptor_ref_exists::X4,True,error,MD_X4
+band_microdescriptor_ref_exists::X5,True,error,MD_X5
+band_microdescriptor_ref_exists::Ad0,True,error,MD_Ad0
+band_microdescriptor_ref_exists::Ad1,True,error,MD_Ad1
+band_microdescriptor_ref_exists::Ad2,True,error,MD_Ad2
+band_microdescriptor_ref_exists::Ad3,True,error,MD_Ad3
+band_microdescriptor_ref_exists::Ad4,True,error,MD_Ad4
+band_microdescriptor_ref_exists::Ad5,True,error,MD_Ad5
+micro_observation_count_6,True,error,6 observations found
+micro_observation_policy_no_direct_score,True,error,False
+micro_observation_no_direct_band::MO_C1_P4,True,error,False
+micro_observation_no_direct_band::MO_C2_S1,True,error,False
+micro_observation_no_direct_band::MO_C2_I1,True,error,False
+micro_observation_no_direct_band::MO_C1_P3,True,error,False
+micro_observation_no_direct_band::MO_C4_E2,True,error,False
+micro_observation_no_direct_band::MO_C4_E4,True,error,False
+hard_constraints_known_band::HC1::P4,True,error,P4
+hard_constraints_known_band::HC1::DBc3,True,error,DBc3
+hard_constraints_known_band::HC2::P5,True,error,P5
+hard_constraints_known_band::HC2::DBc4,True,error,DBc4
+hard_constraints_known_band::HC3::A4,True,error,A4
+hard_constraints_known_band::HC3::P3,True,error,P3
+hard_constraints_known_band::HC3::DBc5,True,error,DBc5
+hard_constraints_known_band::HC4::TD4,True,error,TD4
+hard_constraints_known_band::HC4::VC2,True,error,VC2
+hard_constraints_known_band::HC4::VM2,True,error,VM2
+hard_constraints_known_band::HC5::DA3,True,error,DA3
+hard_constraints_known_band::HC5::X3,True,error,X3
+hard_constraints_known_band::HC6::B1,True,error,B1
+hard_constraints_known_band::HC6::P4,True,error,P4
+soft_constraints_known_band::SC1::C1,True,error,C1
+soft_constraints_known_band::SC3::Ad3,True,error,Ad3
+soft_constraints_known_band::SC3::VM3,True,error,VM3
+soft_constraints_known_band::SC4::S0,True,error,S0
+soft_constraints_known_band::SC5::K3,True,error,K3
+soft_constraints_known_band::SC5::DA1,True,error,DA1
+synergies_known_band::SY1::C5,True,error,C5
+synergies_known_band::SY1::VM4,True,error,VM4
+synergies_known_band::SY1::X4,True,error,X4
+synergies_known_band::SY2::DBc5,True,error,DBc5
+synergies_known_band::SY2::A3,True,error,A3
+synergies_known_band::SY3::Ad5,True,error,Ad5
+synergies_known_band::SY3::VM4,True,error,VM4
+synergies_known_band::SY4::E4,True,error,E4
+synergies_known_band::SY4::DA2,True,error,DA2
+relation_check_count_44,True,error,44 relation checks found
+relation_resolved::A_C_AI_dominance,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::A_C_AI_dominance,True,error,soft_constraint
+relation_known_rubric::A_C_AI_dominance::A,True,error,A
+relation_known_rubric::A_C_AI_dominance::C,True,error,C
+relation_resolved::A_DBc_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::A_DBc_required,True,error,hard_constraint
+relation_known_rubric::A_DBc_required::A,True,error,A
+relation_known_rubric::A_DBc_required::DBc,True,error,DBc
+relation_resolved::A_P_blocking_high,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::A_P_blocking_high,True,error,hard_constraint
+relation_known_rubric::A_P_blocking_high::A,True,error,A
+relation_known_rubric::A_P_blocking_high::DBc,True,error,DBc
+relation_known_rubric::A_P_blocking_high::P,True,error,P
+relation_resolved::Ad_C5_support,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::Ad_C5_support,True,error,synergy
+relation_known_rubric::Ad_C5_support::Ad,True,error,Ad
+relation_known_rubric::Ad_C5_support::C,True,error,C
+relation_resolved::Ad_VM_interaction,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::Ad_VM_interaction,True,error,soft_constraint_and_synergy
+relation_known_rubric::Ad_VM_interaction::Ad,True,error,Ad
+relation_known_rubric::Ad_VM_interaction::VM,True,error,VM
+relation_resolved::B_K_type_dependency,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::B_K_type_dependency,True,error,soft_constraint
+relation_known_rubric::B_K_type_dependency::B,True,error,B
+relation_known_rubric::B_K_type_dependency::K,True,error,K
+relation_resolved::B_P_blocking,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::B_P_blocking,True,error,hard_constraint
+relation_known_rubric::B_P_blocking::B,True,error,B
+relation_known_rubric::B_P_blocking::P,True,error,P
+relation_resolved::C_A_AI_dominance,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::C_A_AI_dominance,True,error,soft_constraint
+relation_known_rubric::C_A_AI_dominance::A,True,error,A
+relation_known_rubric::C_A_AI_dominance::C,True,error,C
+relation_resolved::C_S_dependency,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::C_S_dependency,True,error,score_consistency
+relation_known_rubric::C_S_dependency::C,True,error,C
+relation_known_rubric::C_S_dependency::S,True,error,S
+relation_resolved::C_VM_bidirectional,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::C_VM_bidirectional,True,error,soft_constraint_and_synergy
+relation_known_rubric::C_VM_bidirectional::C,True,error,C
+relation_known_rubric::C_VM_bidirectional::VM,True,error,VM
+relation_resolved::DA_E_minimum,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::DA_E_minimum,True,error,soft_constraint
+relation_known_rubric::DA_E_minimum::DA,True,error,DA
+relation_known_rubric::DA_E_minimum::E,True,error,E
+relation_resolved::DA_VM_interaction,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::DA_VM_interaction,True,error,soft_constraint
+relation_known_rubric::DA_VM_interaction::DA,True,error,DA
+relation_known_rubric::DA_VM_interaction::VM,True,error,VM
+relation_resolved::DA_X_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::DA_X_required,True,error,hard_constraint
+relation_known_rubric::DA_X_required::DA,True,error,DA
+relation_known_rubric::DA_X_required::X,True,error,X
+relation_resolved::DBc_A_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::DBc_A_required,True,error,hard_constraint
+relation_known_rubric::DBc_A_required::A,True,error,A
+relation_known_rubric::DBc_A_required::DBc,True,error,DBc
+relation_resolved::DBc_P_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::DBc_P_required,True,error,hard_constraint
+relation_known_rubric::DBc_P_required::DBc,True,error,DBc
+relation_known_rubric::DBc_P_required::P,True,error,P
+relation_resolved::DBc_X_consistency,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::DBc_X_consistency,True,error,score_consistency
+relation_known_rubric::DBc_X_consistency::DBc,True,error,DBc
+relation_known_rubric::DBc_X_consistency::X,True,error,X
+relation_resolved::E_DA_minimum,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::E_DA_minimum,True,error,score_consistency_and_synergy
+relation_known_rubric::E_DA_minimum::DA,True,error,DA
+relation_known_rubric::E_DA_minimum::E,True,error,E
+relation_resolved::E_X_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::E_X_required,True,error,score_consistency
+relation_known_rubric::E_X_required::E,True,error,E
+relation_known_rubric::E_X_required::X,True,error,X
+relation_resolved::K_E_type_dependency,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::K_E_type_dependency,True,error,soft_constraint
+relation_known_rubric::K_E_type_dependency::E,True,error,E
+relation_known_rubric::K_E_type_dependency::K,True,error,K
+relation_resolved::K_P_fit,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::K_P_fit,True,error,interpretive
+relation_known_rubric::K_P_fit::K,True,error,K
+relation_known_rubric::K_P_fit::P,True,error,P
+relation_resolved::K_V_effectiveness,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::K_V_effectiveness,True,error,soft_constraint
+relation_known_rubric::K_V_effectiveness::K,True,error,K
+relation_known_rubric::K_V_effectiveness::VC,True,error,VC
+relation_known_rubric::K_V_effectiveness::VM,True,error,VM
+relation_resolved::L_TD_schijnleren,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::L_TD_schijnleren,True,error,soft_constraint
+relation_known_rubric::L_TD_schijnleren::L,True,error,L
+relation_known_rubric::L_TD_schijnleren::TD,True,error,TD
+relation_resolved::L_VM_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::L_VM_required,True,error,soft_constraint
+relation_known_rubric::L_VM_required::L,True,error,L
+relation_known_rubric::L_VM_required::VM,True,error,VM
+relation_resolved::P_A_warning,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::P_A_warning,True,error,soft_constraint
+relation_known_rubric::P_A_warning::A,True,error,A
+relation_known_rubric::P_A_warning::P,True,error,P
+relation_resolved::P_B_blocking,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::P_B_blocking,True,error,hard_constraint
+relation_known_rubric::P_B_blocking::B,True,error,B
+relation_known_rubric::P_B_blocking::P,True,error,P
+relation_resolved::P_DBc_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::P_DBc_required,True,error,hard_constraint
+relation_known_rubric::P_DBc_required::DBc,True,error,DBc
+relation_known_rubric::P_DBc_required::P,True,error,P
+relation_resolved::P_X_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::P_X_required,True,error,soft_constraint
+relation_known_rubric::P_X_required::P,True,error,P
+relation_known_rubric::P_X_required::X,True,error,X
+relation_resolved::S_C5_dependency,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::S_C5_dependency,True,error,score_consistency
+relation_known_rubric::S_C5_dependency::C,True,error,C
+relation_known_rubric::S_C5_dependency::S,True,error,S
+relation_resolved::S_VS_bidirectional,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::S_VS_bidirectional,True,error,soft_constraint_and_synergy
+relation_known_rubric::S_VS_bidirectional::S,True,error,S
+relation_known_rubric::S_VS_bidirectional::VS,True,error,VS
+relation_resolved::TD_L_schijnleren,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::TD_L_schijnleren,True,error,soft_constraint
+relation_known_rubric::TD_L_schijnleren::L,True,error,L
+relation_known_rubric::TD_L_schijnleren::TD,True,error,TD
+relation_resolved::TD_P_contextual_correction,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::TD_P_contextual_correction,True,error,interpretive
+relation_known_rubric::TD_P_contextual_correction::P,True,error,P
+relation_known_rubric::TD_P_contextual_correction::TD,True,error,TD
+relation_resolved::TD_V_inverse,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::TD_V_inverse,True,error,hard_constraint
+relation_known_rubric::TD_V_inverse::TD,True,error,TD
+relation_known_rubric::TD_V_inverse::VC,True,error,VC
+relation_known_rubric::TD_V_inverse::VM,True,error,VM
+relation_resolved::T_A_governance,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::T_A_governance,True,error,soft_constraint
+relation_known_rubric::T_A_governance::A,True,error,A
+relation_known_rubric::T_A_governance::DBc,True,error,DBc
+relation_known_rubric::T_A_governance::T,True,error,T
+relation_known_rubric::T_A_governance::X,True,error,X
+relation_resolved::T_X_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::T_X_required,True,error,soft_constraint
+relation_known_rubric::T_X_required::T,True,error,T
+relation_known_rubric::T_X_required::X,True,error,X
+relation_resolved::VA_C_interaction,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VA_C_interaction,True,error,soft_constraint
+relation_known_rubric::VA_C_interaction::C,True,error,C
+relation_known_rubric::VA_C_interaction::VA,True,error,VA
+relation_resolved::VC_K_effectiveness,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VC_K_effectiveness,True,error,soft_constraint
+relation_known_rubric::VC_K_effectiveness::K,True,error,K
+relation_known_rubric::VC_K_effectiveness::VC,True,error,VC
+relation_resolved::VC_TD_inverse,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VC_TD_inverse,True,error,hard_constraint
+relation_known_rubric::VC_TD_inverse::TD,True,error,TD
+relation_known_rubric::VC_TD_inverse::VC,True,error,VC
+relation_resolved::VM_Ad_interaction,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VM_Ad_interaction,True,error,soft_constraint_and_synergy
+relation_known_rubric::VM_Ad_interaction::Ad,True,error,Ad
+relation_known_rubric::VM_Ad_interaction::VM,True,error,VM
+relation_resolved::VM_C_bidirectional,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VM_C_bidirectional,True,error,soft_constraint_and_synergy
+relation_known_rubric::VM_C_bidirectional::C,True,error,C
+relation_known_rubric::VM_C_bidirectional::VM,True,error,VM
+relation_resolved::VM_L_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VM_L_required,True,error,soft_constraint
+relation_known_rubric::VM_L_required::L,True,error,L
+relation_known_rubric::VM_L_required::VM,True,error,VM
+relation_resolved::VS_S_bidirectional,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::VS_S_bidirectional,True,error,soft_constraint_and_synergy
+relation_known_rubric::VS_S_bidirectional::S,True,error,S
+relation_known_rubric::VS_S_bidirectional::VS,True,error,VS
+relation_resolved::X_DA_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::X_DA_required,True,error,hard_constraint
+relation_known_rubric::X_DA_required::DA,True,error,DA
+relation_known_rubric::X_DA_required::X,True,error,X
+relation_resolved::X_P_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::X_P_required,True,error,soft_constraint
+relation_known_rubric::X_P_required::P,True,error,P
+relation_known_rubric::X_P_required::X,True,error,X
+relation_resolved::X_T_required,True,error,"{'status': 'resolved', 'review_required': False}"
+relation_enforcement_allowed::X_T_required,True,error,soft_constraint
+relation_known_rubric::X_T_required::T,True,error,T
+relation_known_rubric::X_T_required::X,True,error,X
+command_count_58,True,error,58 commands found
+fix_registry_matches_command_library,True,error,58 registry vs 58 commands
+fix_is_selection_result,True,error,True
+band_fix_default_known_command::K_KennisType::K0,True,error,/leervraag
+band_fix_default_known_command::K_KennisType::K1,True,error,/flits
+band_fix_default_known_command::K_KennisType::K2,True,error,/modelen
+band_fix_default_known_command::K_KennisType::K3,True,error,/meta
+band_fix_default_known_command::C_CoRegulatie::C0,True,error,/checkin
+band_fix_default_known_command::C_CoRegulatie::C1,True,error,/beurtvraag
+band_fix_default_known_command::C_CoRegulatie::C2,True,error,/keuze
+band_fix_default_known_command::C_CoRegulatie::C3,True,error,/ssrl_check
+band_fix_default_known_command::C_CoRegulatie::C4,True,error,/ref
+band_fix_default_known_command::C_CoRegulatie::C5,True,error,/devil
+band_fix_default_known_command::P_Procesfase::P0,True,error,/fase_check
+band_fix_default_known_command::P_Procesfase::P1,True,error,/intro
+band_fix_default_known_command::P_Procesfase::P2,True,error,/schema
+band_fix_default_known_command::P_Procesfase::P3,True,error,/beeld
+band_fix_default_known_command::P_Procesfase::P4,True,error,/contextualise
+band_fix_default_known_command::P_Procesfase::P5,True,error,/rubric
+band_fix_default_known_command::TD_Taakdichtheid::TD0,True,error,/leervraag
+band_fix_default_known_command::TD_Taakdichtheid::TD1,True,error,/twist
+band_fix_default_known_command::TD_Taakdichtheid::TD2,True,error,/vocab
+band_fix_default_known_command::TD_Taakdichtheid::TD3,True,error,/co-construct
+band_fix_default_known_command::TD_Taakdichtheid::TD4,True,error,/modelen
+band_fix_default_known_command::TD_Taakdichtheid::TD5,True,error,/zonder_ai
+band_fix_default_known_command::V_Vaardigheidspotentieel::V0,True,error,/checkin
+band_fix_default_known_command::V_Vaardigheidspotentieel::V1,True,error,/nieuwsgierig
+band_fix_default_known_command::V_Vaardigheidspotentieel::V2,True,error,/vergelijk
+band_fix_default_known_command::V_Vaardigheidspotentieel::V3,True,error,/contextualise
+band_fix_default_known_command::V_Vaardigheidspotentieel::V4,True,error,/ref
+band_fix_default_known_command::V_Vaardigheidspotentieel::V5,True,error,/transfeer
+band_fix_default_known_command::E_EpistemischeBetrouwbaarheid::E0,True,error,/feit_mening
+band_fix_default_known_command::E_EpistemischeBetrouwbaarheid::E1,True,error,/verify
+band_fix_default_known_command::E_EpistemischeBetrouwbaarheid::E2,True,error,/bronweging
+band_fix_default_known_command::E_EpistemischeBetrouwbaarheid::E3,True,error,/triangulatie
+band_fix_default_known_command::E_EpistemischeBetrouwbaarheid::E4,True,error,/falsificatie
+band_fix_default_known_command::E_EpistemischeBetrouwbaarheid::E5,True,error,/evidence_chain
+band_fix_default_known_command::T_TechnologischeIntegratieVisibility::T0,True,error,/tool_aware
+band_fix_default_known_command::T_TechnologischeIntegratieVisibility::T1,True,error,/verify
+band_fix_default_known_command::T_TechnologischeIntegratieVisibility::T2,True,error,/prompt_steer
+band_fix_default_known_command::T_TechnologischeIntegratieVisibility::T3,True,error,/chain
+band_fix_default_known_command::T_TechnologischeIntegratieVisibility::T4,True,error,/mens_vs_ai
+band_fix_default_known_command::T_TechnologischeIntegratieVisibility::T5,True,error,/bias_check
+band_fix_default_known_command::S_SocialeInteractie::S0,True,error,/social_check
+band_fix_default_known_command::S_SocialeInteractie::S1,True,error,/peer
+band_fix_default_known_command::S_SocialeInteractie::S2,True,error,/teach
+band_fix_default_known_command::S_SocialeInteractie::S3,True,error,/rolwissel
+band_fix_default_known_command::S_SocialeInteractie::S4,True,error,/ssrl_check
+band_fix_default_known_command::S_SocialeInteractie::S5,True,error,/collectief
+band_fix_default_known_command::L_LeercontinuiteitTransfer::L0,True,error,/proces_eval
+band_fix_default_known_command::L_LeercontinuiteitTransfer::L1,True,error,/zonder_ai
+band_fix_default_known_command::L_LeercontinuiteitTransfer::L2,True,error,/generalise
+band_fix_default_known_command::L_LeercontinuiteitTransfer::L3,True,error,/doel_link
+band_fix_default_known_command::L_LeercontinuiteitTransfer::L4,True,error,/transfeer
+band_fix_default_known_command::L_LeercontinuiteitTransfer::L5,True,error,/vertraging
+band_fix_default_known_command::B_BiasCorrectie::B0,True,error,/relevantie
+band_fix_default_known_command::B_BiasCorrectie::B1,True,error,/rolwissel
+band_fix_default_known_command::B_BiasCorrectie::B2,True,error,/exclusie_check
+band_fix_default_known_command::B_BiasCorrectie::B3,True,error,/inclusie
+band_fix_default_known_command::B_BiasCorrectie::B4,True,error,/twist
+band_fix_default_known_command::B_BiasCorrectie::B5,True,error,/algo_kritiek
+formative_workform_count_49,True,error,49 workforms found
+legacy_workform_category_count_15,True,error,15 categories found
+workform_has_mapped_command::fw_brain_dump,True,error,"['/vocab', '/schema', '/intro', '/checkin']"
+workform_not_direct_score::fw_brain_dump,True,error,False
+workform_known_command::fw_brain_dump::/vocab,True,error,/vocab
+workform_known_command::fw_brain_dump::/schema,True,error,/schema
+workform_known_command::fw_brain_dump::/intro,True,error,/intro
+workform_known_command::fw_brain_dump::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_woord_web,True,error,"['/vocab', '/schema', '/intro', '/checkin']"
+workform_not_direct_score::fw_woord_web,True,error,False
+workform_known_command::fw_woord_web::/vocab,True,error,/vocab
+workform_known_command::fw_woord_web::/schema,True,error,/schema
+workform_known_command::fw_woord_web::/intro,True,error,/intro
+workform_known_command::fw_woord_web::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_lesdoel_vertalen,True,error,"['/beurtvraag', '/teach', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_lesdoel_vertalen,True,error,False
+workform_known_command::fw_lesdoel_vertalen::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_lesdoel_vertalen::/teach,True,error,/teach
+workform_known_command::fw_lesdoel_vertalen::/intro,True,error,/intro
+workform_known_command::fw_lesdoel_vertalen::/schema,True,error,/schema
+workform_known_command::fw_lesdoel_vertalen::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_twee_waarheden,True,error,"['/ref', '/devil', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_twee_waarheden,True,error,False
+workform_known_command::fw_twee_waarheden::/ref,True,error,/ref
+workform_known_command::fw_twee_waarheden::/devil,True,error,/devil
+workform_known_command::fw_twee_waarheden::/intro,True,error,/intro
+workform_known_command::fw_twee_waarheden::/schema,True,error,/schema
+workform_known_command::fw_twee_waarheden::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_voorspelling,True,error,"['/ref', '/devil', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_voorspelling,True,error,False
+workform_known_command::fw_voorspelling::/ref,True,error,/ref
+workform_known_command::fw_voorspelling::/devil,True,error,/devil
+workform_known_command::fw_voorspelling::/intro,True,error,/intro
+workform_known_command::fw_voorspelling::/schema,True,error,/schema
+workform_known_command::fw_voorspelling::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_kernvraag_start,True,error,"['/schema', '/stappenplan', '/intro', '/checkin']"
+workform_not_direct_score::fw_kernvraag_start,True,error,False
+workform_known_command::fw_kernvraag_start::/schema,True,error,/schema
+workform_known_command::fw_kernvraag_start::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_kernvraag_start::/intro,True,error,/intro
+workform_known_command::fw_kernvraag_start::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_vorige_les_quiz,True,error,"['/quizgen', '/beurtvraag', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_vorige_les_quiz,True,error,False
+workform_known_command::fw_vorige_les_quiz::/quizgen,True,error,/quizgen
+workform_known_command::fw_vorige_les_quiz::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_vorige_les_quiz::/intro,True,error,/intro
+workform_known_command::fw_vorige_les_quiz::/schema,True,error,/schema
+workform_known_command::fw_vorige_les_quiz::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_foto_analyse,True,error,"['/verify', '/feit_mening', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_foto_analyse,True,error,False
+workform_known_command::fw_foto_analyse::/verify,True,error,/verify
+workform_known_command::fw_foto_analyse::/feit_mening,True,error,/feit_mening
+workform_known_command::fw_foto_analyse::/intro,True,error,/intro
+workform_known_command::fw_foto_analyse::/schema,True,error,/schema
+workform_known_command::fw_foto_analyse::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_kop_schrijven,True,error,"['/schema', '/stappenplan', '/intro', '/checkin']"
+workform_not_direct_score::fw_kop_schrijven,True,error,False
+workform_known_command::fw_kop_schrijven::/schema,True,error,/schema
+workform_known_command::fw_kop_schrijven::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_kop_schrijven::/intro,True,error,/intro
+workform_known_command::fw_kop_schrijven::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_begrip_sorteren,True,error,"['/schema', '/vergelijk', '/intro', '/checkin']"
+workform_not_direct_score::fw_begrip_sorteren,True,error,False
+workform_known_command::fw_begrip_sorteren::/schema,True,error,/schema
+workform_known_command::fw_begrip_sorteren::/vergelijk,True,error,/vergelijk
+workform_known_command::fw_begrip_sorteren::/intro,True,error,/intro
+workform_known_command::fw_begrip_sorteren::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_denkvraag_trio,True,error,"['/co-construct', '/devil', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_denkvraag_trio,True,error,False
+workform_known_command::fw_denkvraag_trio::/co-construct,True,error,/co-construct
+workform_known_command::fw_denkvraag_trio::/devil,True,error,/devil
+workform_known_command::fw_denkvraag_trio::/intro,True,error,/intro
+workform_known_command::fw_denkvraag_trio::/schema,True,error,/schema
+workform_known_command::fw_denkvraag_trio::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_feit_of_mening,True,error,"['/co-construct', '/devil', '/intro', '/schema', '/checkin']"
+workform_not_direct_score::fw_feit_of_mening,True,error,False
+workform_known_command::fw_feit_of_mening::/co-construct,True,error,/co-construct
+workform_known_command::fw_feit_of_mening::/devil,True,error,/devil
+workform_known_command::fw_feit_of_mening::/intro,True,error,/intro
+workform_known_command::fw_feit_of_mening::/schema,True,error,/schema
+workform_known_command::fw_feit_of_mening::/checkin,True,error,/checkin
+workform_has_mapped_command::fw_wisbordjes,True,error,"['/verify', '/feit_mening', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_wisbordjes,True,error,False
+workform_known_command::fw_wisbordjes::/verify,True,error,/verify
+workform_known_command::fw_wisbordjes::/feit_mening,True,error,/feit_mening
+workform_known_command::fw_wisbordjes::/beeld,True,error,/beeld
+workform_known_command::fw_wisbordjes::/modelen,True,error,/modelen
+workform_known_command::fw_wisbordjes::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_denken_delen,True,error,"['/ref', '/devil', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_denken_delen,True,error,False
+workform_known_command::fw_denken_delen::/ref,True,error,/ref
+workform_known_command::fw_denken_delen::/devil,True,error,/devil
+workform_known_command::fw_denken_delen::/beeld,True,error,/beeld
+workform_known_command::fw_denken_delen::/modelen,True,error,/modelen
+workform_known_command::fw_denken_delen::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_stelling_ab,True,error,"['/co-construct', '/devil', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_stelling_ab,True,error,False
+workform_known_command::fw_stelling_ab::/co-construct,True,error,/co-construct
+workform_known_command::fw_stelling_ab::/devil,True,error,/devil
+workform_known_command::fw_stelling_ab::/beeld,True,error,/beeld
+workform_known_command::fw_stelling_ab::/modelen,True,error,/modelen
+workform_known_command::fw_stelling_ab::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_stoplichtcheck,True,error,"['/meta', '/proces_eval', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_stoplichtcheck,True,error,False
+workform_known_command::fw_stoplichtcheck::/meta,True,error,/meta
+workform_known_command::fw_stoplichtcheck::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_stoplichtcheck::/beeld,True,error,/beeld
+workform_known_command::fw_stoplichtcheck::/modelen,True,error,/modelen
+workform_known_command::fw_stoplichtcheck::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_mini_quiz,True,error,"['/quizgen', '/beurtvraag', '/beeld', '/modelen']"
+workform_not_direct_score::fw_mini_quiz,True,error,False
+workform_known_command::fw_mini_quiz::/quizgen,True,error,/quizgen
+workform_known_command::fw_mini_quiz::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_mini_quiz::/beeld,True,error,/beeld
+workform_known_command::fw_mini_quiz::/modelen,True,error,/modelen
+workform_has_mapped_command::fw_herformuleren,True,error,"['/vocab', '/stappenplan', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_herformuleren,True,error,False
+workform_known_command::fw_herformuleren::/vocab,True,error,/vocab
+workform_known_command::fw_herformuleren::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_herformuleren::/beeld,True,error,/beeld
+workform_known_command::fw_herformuleren::/modelen,True,error,/modelen
+workform_known_command::fw_herformuleren::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_model_antwoord,True,error,"['/rubric', '/feedback_keuze', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_model_antwoord,True,error,False
+workform_known_command::fw_model_antwoord::/rubric,True,error,/rubric
+workform_known_command::fw_model_antwoord::/feedback_keuze,True,error,/feedback_keuze
+workform_known_command::fw_model_antwoord::/beeld,True,error,/beeld
+workform_known_command::fw_model_antwoord::/modelen,True,error,/modelen
+workform_known_command::fw_model_antwoord::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_stap_voor_stap,True,error,"['/schema', '/stappenplan', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_stap_voor_stap,True,error,False
+workform_known_command::fw_stap_voor_stap::/schema,True,error,/schema
+workform_known_command::fw_stap_voor_stap::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_stap_voor_stap::/beeld,True,error,/beeld
+workform_known_command::fw_stap_voor_stap::/modelen,True,error,/modelen
+workform_known_command::fw_stap_voor_stap::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_voorbeeld_bedenken,True,error,"['/contextualise', '/transfeer', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_voorbeeld_bedenken,True,error,False
+workform_known_command::fw_voorbeeld_bedenken::/contextualise,True,error,/contextualise
+workform_known_command::fw_voorbeeld_bedenken::/transfeer,True,error,/transfeer
+workform_known_command::fw_voorbeeld_bedenken::/beeld,True,error,/beeld
+workform_known_command::fw_voorbeeld_bedenken::/modelen,True,error,/modelen
+workform_known_command::fw_voorbeeld_bedenken::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_uitleg_aan_alien,True,error,"['/beurtvraag', '/teach', '/beeld', '/modelen']"
+workform_not_direct_score::fw_uitleg_aan_alien,True,error,False
+workform_known_command::fw_uitleg_aan_alien::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_uitleg_aan_alien::/teach,True,error,/teach
+workform_known_command::fw_uitleg_aan_alien::/beeld,True,error,/beeld
+workform_known_command::fw_uitleg_aan_alien::/modelen,True,error,/modelen
+workform_has_mapped_command::fw_vraag_formuleren,True,error,"['/meta', '/proces_eval', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_vraag_formuleren,True,error,False
+workform_known_command::fw_vraag_formuleren::/meta,True,error,/meta
+workform_known_command::fw_vraag_formuleren::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_vraag_formuleren::/beeld,True,error,/beeld
+workform_known_command::fw_vraag_formuleren::/modelen,True,error,/modelen
+workform_known_command::fw_vraag_formuleren::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_duim_peiling,True,error,"['/meta', '/proces_eval', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_duim_peiling,True,error,False
+workform_known_command::fw_duim_peiling::/meta,True,error,/meta
+workform_known_command::fw_duim_peiling::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_duim_peiling::/beeld,True,error,/beeld
+workform_known_command::fw_duim_peiling::/modelen,True,error,/modelen
+workform_known_command::fw_duim_peiling::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_hardop_denken,True,error,"['/ref', '/devil', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_hardop_denken,True,error,False
+workform_known_command::fw_hardop_denken::/ref,True,error,/ref
+workform_known_command::fw_hardop_denken::/devil,True,error,/devil
+workform_known_command::fw_hardop_denken::/beeld,True,error,/beeld
+workform_known_command::fw_hardop_denken::/modelen,True,error,/modelen
+workform_known_command::fw_hardop_denken::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_zinnen_ranken,True,error,"['/verify', '/feit_mening', '/beeld', '/modelen', '/beurtvraag']"
+workform_not_direct_score::fw_zinnen_ranken,True,error,False
+workform_known_command::fw_zinnen_ranken::/verify,True,error,/verify
+workform_known_command::fw_zinnen_ranken::/feit_mening,True,error,/feit_mening
+workform_known_command::fw_zinnen_ranken::/beeld,True,error,/beeld
+workform_known_command::fw_zinnen_ranken::/modelen,True,error,/modelen
+workform_known_command::fw_zinnen_ranken::/beurtvraag,True,error,/beurtvraag
+workform_has_mapped_command::fw_peerfeedback,True,error,"['/rubric', '/feedback_keuze', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_peerfeedback,True,error,False
+workform_known_command::fw_peerfeedback::/rubric,True,error,/rubric
+workform_known_command::fw_peerfeedback::/feedback_keuze,True,error,/feedback_keuze
+workform_known_command::fw_peerfeedback::/fading,True,error,/fading
+workform_known_command::fw_peerfeedback::/contextualise,True,error,/contextualise
+workform_known_command::fw_peerfeedback::/peer,True,error,/peer
+workform_has_mapped_command::fw_conceptmap,True,error,"['/schema', '/vergelijk', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_conceptmap,True,error,False
+workform_known_command::fw_conceptmap::/schema,True,error,/schema
+workform_known_command::fw_conceptmap::/vergelijk,True,error,/vergelijk
+workform_known_command::fw_conceptmap::/fading,True,error,/fading
+workform_known_command::fw_conceptmap::/contextualise,True,error,/contextualise
+workform_known_command::fw_conceptmap::/peer,True,error,/peer
+workform_has_mapped_command::fw_fout_antwoord,True,error,"['/misvatting', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_fout_antwoord,True,error,False
+workform_known_command::fw_fout_antwoord::/misvatting,True,error,/misvatting
+workform_known_command::fw_fout_antwoord::/fading,True,error,/fading
+workform_known_command::fw_fout_antwoord::/contextualise,True,error,/contextualise
+workform_known_command::fw_fout_antwoord::/peer,True,error,/peer
+workform_has_mapped_command::fw_transfer_vraag,True,error,"['/contextualise', '/transfeer', '/fading', '/peer']"
+workform_not_direct_score::fw_transfer_vraag,True,error,False
+workform_known_command::fw_transfer_vraag::/contextualise,True,error,/contextualise
+workform_known_command::fw_transfer_vraag::/transfeer,True,error,/transfeer
+workform_known_command::fw_transfer_vraag::/fading,True,error,/fading
+workform_known_command::fw_transfer_vraag::/peer,True,error,/peer
+workform_has_mapped_command::fw_gallery_walk,True,error,"['/vergelijk', '/ref', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_gallery_walk,True,error,False
+workform_known_command::fw_gallery_walk::/vergelijk,True,error,/vergelijk
+workform_known_command::fw_gallery_walk::/ref,True,error,/ref
+workform_known_command::fw_gallery_walk::/fading,True,error,/fading
+workform_known_command::fw_gallery_walk::/contextualise,True,error,/contextualise
+workform_known_command::fw_gallery_walk::/peer,True,error,/peer
+workform_has_mapped_command::fw_checklist_werk,True,error,"['/rubric', '/feedback_keuze', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_checklist_werk,True,error,False
+workform_known_command::fw_checklist_werk::/rubric,True,error,/rubric
+workform_known_command::fw_checklist_werk::/feedback_keuze,True,error,/feedback_keuze
+workform_known_command::fw_checklist_werk::/fading,True,error,/fading
+workform_known_command::fw_checklist_werk::/contextualise,True,error,/contextualise
+workform_known_command::fw_checklist_werk::/peer,True,error,/peer
+workform_has_mapped_command::fw_redo_verbeteren,True,error,"['/misvatting', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_redo_verbeteren,True,error,False
+workform_known_command::fw_redo_verbeteren::/misvatting,True,error,/misvatting
+workform_known_command::fw_redo_verbeteren::/fading,True,error,/fading
+workform_known_command::fw_redo_verbeteren::/contextualise,True,error,/contextualise
+workform_known_command::fw_redo_verbeteren::/peer,True,error,/peer
+workform_has_mapped_command::fw_schrijf_duo,True,error,"['/vocab', '/stappenplan', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_schrijf_duo,True,error,False
+workform_known_command::fw_schrijf_duo::/vocab,True,error,/vocab
+workform_known_command::fw_schrijf_duo::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_schrijf_duo::/fading,True,error,/fading
+workform_known_command::fw_schrijf_duo::/contextualise,True,error,/contextualise
+workform_known_command::fw_schrijf_duo::/peer,True,error,/peer
+workform_has_mapped_command::fw_vergelijk_aanpak,True,error,"['/vergelijk', '/ref', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_vergelijk_aanpak,True,error,False
+workform_known_command::fw_vergelijk_aanpak::/vergelijk,True,error,/vergelijk
+workform_known_command::fw_vergelijk_aanpak::/ref,True,error,/ref
+workform_known_command::fw_vergelijk_aanpak::/fading,True,error,/fading
+workform_known_command::fw_vergelijk_aanpak::/contextualise,True,error,/contextualise
+workform_known_command::fw_vergelijk_aanpak::/peer,True,error,/peer
+workform_has_mapped_command::fw_kernzin_schrijven,True,error,"['/schema', '/stappenplan', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_kernzin_schrijven,True,error,False
+workform_known_command::fw_kernzin_schrijven::/schema,True,error,/schema
+workform_known_command::fw_kernzin_schrijven::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_kernzin_schrijven::/fading,True,error,/fading
+workform_known_command::fw_kernzin_schrijven::/contextualise,True,error,/contextualise
+workform_known_command::fw_kernzin_schrijven::/peer,True,error,/peer
+workform_has_mapped_command::fw_bewijs_zoeken,True,error,"['/ref', '/devil', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_bewijs_zoeken,True,error,False
+workform_known_command::fw_bewijs_zoeken::/ref,True,error,/ref
+workform_known_command::fw_bewijs_zoeken::/devil,True,error,/devil
+workform_known_command::fw_bewijs_zoeken::/fading,True,error,/fading
+workform_known_command::fw_bewijs_zoeken::/contextualise,True,error,/contextualise
+workform_known_command::fw_bewijs_zoeken::/peer,True,error,/peer
+workform_has_mapped_command::fw_oefentoets,True,error,"['/quizgen', '/beurtvraag', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_oefentoets,True,error,False
+workform_known_command::fw_oefentoets::/quizgen,True,error,/quizgen
+workform_known_command::fw_oefentoets::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_oefentoets::/fading,True,error,/fading
+workform_known_command::fw_oefentoets::/contextualise,True,error,/contextualise
+workform_known_command::fw_oefentoets::/peer,True,error,/peer
+workform_has_mapped_command::fw_stopmoment,True,error,"['/meta', '/proces_eval', '/fading', '/contextualise', '/peer']"
+workform_not_direct_score::fw_stopmoment,True,error,False
+workform_known_command::fw_stopmoment::/meta,True,error,/meta
+workform_known_command::fw_stopmoment::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_stopmoment::/fading,True,error,/fading
+workform_known_command::fw_stopmoment::/contextualise,True,error,/contextualise
+workform_known_command::fw_stopmoment::/peer,True,error,/peer
+workform_has_mapped_command::fw_exit_ticket,True,error,"['/beurtvraag', '/teach', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_exit_ticket,True,error,False
+workform_known_command::fw_exit_ticket::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_exit_ticket::/teach,True,error,/teach
+workform_known_command::fw_exit_ticket::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_exit_ticket::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_exit_ticket::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_samenvatten_3,True,error,"['/schema', '/stappenplan', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_samenvatten_3,True,error,False
+workform_known_command::fw_samenvatten_3::/schema,True,error,/schema
+workform_known_command::fw_samenvatten_3::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_samenvatten_3::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_samenvatten_3::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_samenvatten_3::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_quick_scan,True,error,"['/meta', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_quick_scan,True,error,False
+workform_known_command::fw_quick_scan::/meta,True,error,/meta
+workform_known_command::fw_quick_scan::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_quick_scan::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_quick_scan::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_muddiest_point,True,error,"['/meta', '/proces_eval', '/afsluiter', '/rubric']"
+workform_not_direct_score::fw_muddiest_point,True,error,False
+workform_known_command::fw_muddiest_point::/meta,True,error,/meta
+workform_known_command::fw_muddiest_point::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_muddiest_point::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_muddiest_point::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_lesdoel_check,True,error,"['/beurtvraag', '/teach', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_lesdoel_check,True,error,False
+workform_known_command::fw_lesdoel_check::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_lesdoel_check::/teach,True,error,/teach
+workform_known_command::fw_lesdoel_check::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_lesdoel_check::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_lesdoel_check::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_tweet_les,True,error,"['/schema', '/stappenplan', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_tweet_les,True,error,False
+workform_known_command::fw_tweet_les::/schema,True,error,/schema
+workform_known_command::fw_tweet_les::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_tweet_les::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_tweet_les::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_tweet_les::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_tip_top,True,error,"['/meta', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_tip_top,True,error,False
+workform_known_command::fw_tip_top::/meta,True,error,/meta
+workform_known_command::fw_tip_top::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_tip_top::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_tip_top::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_brief_aan_jezelf,True,error,"['/beurtvraag', '/teach', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_brief_aan_jezelf,True,error,False
+workform_known_command::fw_brief_aan_jezelf::/beurtvraag,True,error,/beurtvraag
+workform_known_command::fw_brief_aan_jezelf::/teach,True,error,/teach
+workform_known_command::fw_brief_aan_jezelf::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_brief_aan_jezelf::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_brief_aan_jezelf::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_rapportcijfer,True,error,"['/meta', '/proces_eval', '/afsluiter', '/rubric']"
+workform_not_direct_score::fw_rapportcijfer,True,error,False
+workform_known_command::fw_rapportcijfer::/meta,True,error,/meta
+workform_known_command::fw_rapportcijfer::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_rapportcijfer::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_rapportcijfer::/rubric,True,error,/rubric
+workform_has_mapped_command::fw_volgende_stap,True,error,"['/schema', '/stappenplan', '/afsluiter', '/proces_eval', '/rubric']"
+workform_not_direct_score::fw_volgende_stap,True,error,False
+workform_known_command::fw_volgende_stap::/schema,True,error,/schema
+workform_known_command::fw_volgende_stap::/stappenplan,True,error,/stappenplan
+workform_known_command::fw_volgende_stap::/afsluiter,True,error,/afsluiter
+workform_known_command::fw_volgende_stap::/proces_eval,True,error,/proces_eval
+workform_known_command::fw_volgende_stap::/rubric,True,error,/rubric
+legacy_category_known_command::legacy_start_brain_dump::/intro,True,error,/intro
+legacy_category_known_command::legacy_start_brain_dump::/vocab,True,error,/vocab
+legacy_category_known_command::legacy_wisbordjes::/beurtvraag,True,error,/beurtvraag
+legacy_category_known_command::legacy_wisbordjes::/quizgen,True,error,/quizgen
+legacy_category_known_command::legacy_denken_delen_uitwisselen::/ref,True,error,/ref
+legacy_category_known_command::legacy_denken_delen_uitwisselen::/peer,True,error,/peer
+legacy_category_known_command::legacy_peerfeedback::/peer,True,error,/peer
+legacy_category_known_command::legacy_peerfeedback::/feedback_keuze,True,error,/feedback_keuze
+legacy_category_known_command::legacy_gallery_walk::/peer,True,error,/peer
+legacy_category_known_command::legacy_gallery_walk::/rubric,True,error,/rubric
+legacy_category_known_command::legacy_conceptmap::/schema,True,error,/schema
+legacy_category_known_command::legacy_conceptmap::/vergelijk,True,error,/vergelijk
+legacy_category_known_command::legacy_stelling_ab::/co-construct,True,error,/co-construct
+legacy_category_known_command::legacy_stelling_ab::/devil,True,error,/devil
+legacy_category_known_command::legacy_fout_antwoord_analyseren::/misvatting,True,error,/misvatting
+legacy_category_known_command::legacy_fout_antwoord_analyseren::/verify,True,error,/verify
+legacy_category_known_command::legacy_stoplichtcheck::/checkin,True,error,/checkin
+legacy_category_known_command::legacy_stoplichtcheck::/fase_check,True,error,/fase_check
+legacy_category_known_command::legacy_transfer_vraag::/transfeer,True,error,/transfeer
+legacy_category_known_command::legacy_transfer_vraag::/contextualise,True,error,/contextualise
+legacy_category_known_command::legacy_mini_quiz::/quizgen,True,error,/quizgen
+legacy_category_known_command::legacy_mini_quiz::/flits,True,error,/flits
+legacy_category_known_command::legacy_herformuleren::/beeld,True,error,/beeld
+legacy_category_known_command::legacy_herformuleren::/teach,True,error,/teach
+legacy_category_known_command::legacy_samenvatten_3_zinnen::/afsluiter,True,error,/afsluiter
+legacy_category_known_command::legacy_samenvatten_3_zinnen::/teach,True,error,/teach
+legacy_category_known_command::legacy_exit_ticket::/afsluiter,True,error,/afsluiter
+legacy_category_known_command::legacy_exit_ticket::/proces_eval,True,error,/proces_eval
+legacy_category_known_command::legacy_quick_scan_321::/proces_eval,True,error,/proces_eval
+legacy_category_known_command::legacy_quick_scan_321::/meta,True,error,/meta
+adapter_allowed_forbidden_no_overlap,True,error,[]
+adapter_forbids_semantic_override::rubrics,True,error,rubrics
+adapter_forbids_semantic_override::bands,True,error,bands
+adapter_forbids_semantic_override::band_ids,True,error,band_ids
+adapter_forbids_semantic_override::score_ranges,True,error,score_ranges
+adapter_forbids_semantic_override::flag_semantics,True,error,flag_semantics
+adapter_forbids_semantic_override::command_meanings,True,error,command_meanings
+adapter_forbids_semantic_override::trace_schema,True,error,trace_schema
+adapter_forbids_semantic_override::scoring_semantics,True,error,scoring_semantics
+governance_runtime_mutation_forbidden,True,error,False
+governance_trace_locked,True,error,True
+trace_minimum_field::session_id,True,error,session_id
+trace_minimum_field::turn_id,True,error,turn_id
+trace_minimum_field::timestamp_iso,True,error,timestamp_iso
+trace_minimum_field::ssot_version,True,error,ssot_version
+trace_minimum_field::schema_version,True,error,schema_version
+trace_minimum_field::primary_bands,True,error,primary_bands
+trace_minimum_field::intervention_ids,True,error,intervention_ids
+trace_family_extra_field::family_id,True,error,family_id
+trace_family_extra_field::family_version,True,error,family_version
+trace_family_extra_field::adapter_id,True,error,adapter_id
+trace_family_extra_field::runtime_export_id,True,error,runtime_export_id
+trace_family_extra_field::canonical_parent_version,True,error,canonical_parent_version
+compatibility_mapping_present,True,error,46 mappings
+runtime_contains::core,True,error,core
+runtime_contains::rubrics,True,error,rubrics
+runtime_contains::microdescriptors,True,error,microdescriptors
+runtime_contains::constraints,True,error,constraints
+runtime_contains::scoring,True,error,scoring
+runtime_contains::trace,True,error,trace
+runtime_contains::commands,True,error,commands
+runtime_contains::governance,True,error,governance
+runtime_contains::adapter,True,error,adapter
+runtime_mutation_forbidden,True,error,False

@@ -1,0 +1,16 @@
+id,phase,name,context,mapped_commands,role,source
+legacy_start_brain_dump,START,Brain dump,Start / Voorkennis,"[""/intro"", ""/vocab""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_wisbordjes,INSTRUCTION,Wisbordjes,Instructie / Snel begrip checken,"[""/beurtvraag"", ""/quizgen""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_denken_delen_uitwisselen,INSTRUCTION,Denken-delen-uitwisselen,Conceptvorming / Redeneren,"[""/ref"", ""/peer""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_peerfeedback,PRACTICE,Peerfeedback,Verwerking / Fouten verbeteren,"[""/peer"", ""/feedback_keuze""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_gallery_walk,PRACTICE,Gallery walk,Verwerking / Fouten verbeteren,"[""/peer"", ""/rubric""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_conceptmap,INSTRUCTION,Conceptmap,Na instructie / Relaties leggen,"[""/schema"", ""/vergelijk""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_stelling_ab,PRACTICE,Stelling A/B,Discussie / Argumentatie,"[""/co-construct"", ""/devil""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_fout_antwoord_analyseren,PRACTICE,Fout antwoord analyseren,Veilige bespreking van misconcepties,"[""/misvatting"", ""/verify""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_stoplichtcheck,PRACTICE,Stoplichtcheck,Halverwege les / Zelfinschatting,"[""/checkin"", ""/fase_check""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_transfer_vraag,PRACTICE,Transfer-vraag,Verdieping / Nieuwe context,"[""/transfeer"", ""/contextualise""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_mini_quiz,INSTRUCTION,Mini-quiz,Korte diagnostiek over alle niveaus,"[""/quizgen"", ""/flits""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_herformuleren,INSTRUCTION,Herformuleren,Moeilijke abstracte stof,"[""/beeld"", ""/teach""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_samenvatten_3_zinnen,CLOSING,Samenvatten in 3 zinnen,Samenvatten,"[""/afsluiter"", ""/teach""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_exit_ticket,CLOSING,Exit ticket,Afsluiting / Korte analyse,"[""/afsluiter"", ""/proces_eval""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6
+legacy_quick_scan_321,CLOSING,Quick scan 3-2-1,Afsluiting / Korte analyse,"[""/proces_eval"", ""/meta""]",legacy_prompt_workform_category,classroom_ai_route_prompt_from_uploaded_zip_6

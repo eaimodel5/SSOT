@@ -1,0 +1,7 @@
+id,condition,requirement,violation,rationale
+HC1,P >= P4,DBc >= DBc3,invalid,Oefening en toetsing zonder contingent toezicht zijn niet verantwoord.
+HC2,P >= P5,DBc >= DBc4,invalid,Summatieve diplomering vereist actief of human-in-the-loop toezicht.
+HC3,A >= A4 AND P >= P3,DBc = DBc5,invalid,Proactieve agentische systemen in instructie of oefenfase vereisen human-in-the-loop.
+HC4,TD >= TD4 op vaardigheid x,V op vaardigheid x <= VC2 of VM2,invalid,Taakoverdracht sluit vaardigheidsondersteuning op dezelfde vaardigheid uit.
+HC5,DA >= DA3,X >= X3,invalid,Interne deliberatie zonder transparantie breekt didactische controleerbaarheid.
+HC6,B <= B1 AND P >= P4,configuratie_geldig = false,invalid,Manifeste of subtiele bias bij kritieke beslissingen is juridisch en ethisch onaanvaardbaar.

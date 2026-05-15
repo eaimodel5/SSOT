@@ -1,0 +1,17 @@
+entity,field,type,required,meaning
+rubric,id,string,True,"Canonieke rubric-ID, stabiel over tools heen."
+rubric,perspective,enum,True,"Hoofdblik van de rubric, bijvoorbeeld onderwijs of techniek."
+band,id,string,True,Canonieke band-ID. Vorm: rubric-ID plus waarde 0 tot en met 5.
+band,ordinal,integer,True,"Ordinale positie binnen de rubric, 0 laag of buiten scope, 5 hoog of zwaar."
+band,score_range,"array[number, number]",True,Scorebereik binnen de 0-5 bandschaal. In deze release gelijk aan de ordinale waarde.
+band,microdescriptor_ref,string,True,Verwijzing naar bewijsdescriptor voor observeerbaar gedrag.
+microdescriptor,learner_obs,string,True,Wat je bij de leerling zou moeten kunnen zien of aantonen.
+microdescriptor,ai_obs,string,True,Wat het systeem of de AI doet in deze band.
+micro_observation,may_directly_set_band,boolean,True,"Moet false zijn. Micro-observaties zijn signalen, geen directe score."
+constraint,condition,expression,True,Wanneer de regel getoetst wordt.
+constraint,requirement,expression,False,Vereiste band of toestand bij harde constraints.
+relation_check,enforcement,enum,True,"hard_constraint, soft_constraint, score_consistency, synergy of interpretive."
+command,command_id,string,True,Canonieke interventie-intentie. Niet hetzelfde als vaste prompttekst.
+workform,mapped_canonical_commands,array[string],True,Welke canonieke command-intenties deze werkvorm kan uitvoeren.
+adapter,forbidden_overlays,array[string],True,Velden die een tool nooit mag overschrijven.
+trace,minimum_fields,array[string],True,Minimale loggingvelden voor vergelijkbare data-output.

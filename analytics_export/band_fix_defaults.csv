@@ -1,0 +1,59 @@
+legacy_rubric_id,legacy_band_id,command,fix_text,didactic_principle,fix_type,status
+K_KennisType,K0,/leervraag,"Maak het type expliciet: gaat het om (1) een feit/definitie, (2) een procedure/stappen, of (3) een keuze/aanpak?",Afbakening,,legacy_default_not_exclusive
+K_KennisType,K1,/flits,"Drill: stel korte recall-vragen, corrigeer bondig en laat direct herhalen.",Automatisering,,legacy_default_not_exclusive
+K_KennisType,K2,/modelen,Modeling: voordoen → samen doen → leerling doet zelfstandig; expliciteer stappen en checks.,Modeling,,legacy_default_not_exclusive
+K_KennisType,K3,/meta,Laat de leerling strategie en criteria benoemen; reflecteer op wat werkt en wat aangepast moet worden.,Zelfregulatie,,legacy_default_not_exclusive
+C_CoRegulatie,C0,/checkin,"Reset: bepaal doel, rol en gewenste werkvorm.",Afstemming,didactic,legacy_default_not_exclusive
+C_CoRegulatie,C1,/beurtvraag,Stel één dwingende beurtvraag en wacht op eigen formulering van de leerling.,Activering,didactic,legacy_default_not_exclusive
+C_CoRegulatie,C2,/keuze,Bied keuze-architectuur (route A/B) en laat leerling de koers kiezen.,Keuze-architectuur,didactic,legacy_default_not_exclusive
+C_CoRegulatie,C3,/ssrl_check,"Maak gedeeld doel, rolverdeling en eerste monitoringsafspraak expliciet.",Monitoring,didactic,legacy_default_not_exclusive
+C_CoRegulatie,C4,/ref,"Laat rationale, monitoringskeuzes en feedbackbesluiten expliciet maken.",Zelfregulatie,didactic,legacy_default_not_exclusive
+C_CoRegulatie,C5,/devil,Beproef de stevigheid van de regie met een tegenwerping of alternatieve route.,Socratisch,didactic,legacy_default_not_exclusive
+P_Procesfase,P0,/fase_check,Check in welke fase de leerling zit voordat je inhoudelijk verder gaat.,Diagnose,didactic,legacy_default_not_exclusive
+P_Procesfase,P1,/intro,Maak doel/scope expliciet en activeer minimale voorkennis om te kunnen starten.,Oriëntatie,didactic,legacy_default_not_exclusive
+P_Procesfase,P2,/schema,Laat voorkennis structureren (lijst/conceptmap) en verbind aan de opdracht.,Organisatie,didactic,legacy_default_not_exclusive
+P_Procesfase,P3,/beeld,Geef compacte uitleg met metafoor/voorbeeld en controleer begrip met een vraag.,Uitleg,didactic,legacy_default_not_exclusive
+P_Procesfase,P4,/contextualise,Laat proberen; geef hints en foutanalyse; herhaal met variatie.,Oefenen,didactic,legacy_default_not_exclusive
+P_Procesfase,P5,/rubric,Gebruik rubric/criteria; laat de leerling zichzelf scoren en onderbouwen.,Beoordelen,didactic,legacy_default_not_exclusive
+TD_Taakdichtheid,TD0,/leervraag,Verhelder leervraag en bepaal wat de leerling zelf moet doen.,Clarificatie,didactic,legacy_default_not_exclusive
+TD_Taakdichtheid,TD1,/twist,"Verdiep door tegenspraak, nuance of randgeval.",Verdieping,didactic,legacy_default_not_exclusive
+TD_Taakdichtheid,TD2,/vocab,Ondersteun taal/structuur en laat leerling de inhoud produceren.,Scaffolding,didactic,legacy_default_not_exclusive
+TD_Taakdichtheid,TD3,/co-construct,"Werk in beurten: leerling levert, AI reageert, leerling synthese.",Samenwerking,didactic,legacy_default_not_exclusive
+TD_Taakdichtheid,TD4,/modelen,"Model tijdelijk, maar laat de leerling de volgende stap direct zonder AI uitvoeren.",Modeling,didactic,legacy_default_not_exclusive
+TD_Taakdichtheid,TD5,/zonder_ai,"Herstel agency: stop volledige overname, markeer auteurschap en laat de leerling de volgende stap zelfstandig of met skeleton uitvoeren.",Agency-herstel,didactic,legacy_default_not_exclusive
+V_Vaardigheidspotentieel,V0,/checkin,Check doel en activeer een concrete actie.,Activering,didactic,legacy_default_not_exclusive
+V_Vaardigheidspotentieel,V1,/nieuwsgierig,Prikkel nieuwsgierigheid en laat open vragen formuleren.,Exploratie,didactic,legacy_default_not_exclusive
+V_Vaardigheidspotentieel,V2,/vergelijk,Gebruik analogie/vergelijking en laat verbanden expliciet maken.,Relatievorming,didactic,legacy_default_not_exclusive
+V_Vaardigheidspotentieel,V3,/contextualise,Contextualiseer en laat toepassing onderbouwen.,Toepassing,didactic,legacy_default_not_exclusive
+V_Vaardigheidspotentieel,V4,/ref,Laat verbeterpunten benoemen en een revisie uitvoeren.,Reflectie,didactic,legacy_default_not_exclusive
+V_Vaardigheidspotentieel,V5,/transfeer,Stuur op transfer en borging: toepassingen buiten de taak.,Borging,didactic,legacy_default_not_exclusive
+E_EpistemischeBetrouwbaarheid,E0,/feit_mening,"Maak expliciet of het om feiten of interpretatie gaat, en wat wel/niet zeker is.",Epistemische afbakening,didactic,legacy_default_not_exclusive
+E_EpistemischeBetrouwbaarheid,E1,/verify,Stop voortbouwen: verifieer eerst de claim of feedback met een concrete controleactie.,Misconceptie-check,didactic,legacy_default_not_exclusive
+E_EpistemischeBetrouwbaarheid,E2,/bronweging,Weeg bron of feedbackgever expliciet en leg uit waarom je iets wel of niet gebruikt.,Sourcing,didactic,legacy_default_not_exclusive
+E_EpistemischeBetrouwbaarheid,E3,/triangulatie,Trianguleer en noteer waarom deze bron of feedback bruikbaar is.,Triangulatie,didactic,legacy_default_not_exclusive
+E_EpistemischeBetrouwbaarheid,E4,/falsificatie,Zoek actief naar tegenbewijs en vergelijk de sterkte van alternatieve bronnen of feedback.,Falsificatie,didactic,legacy_default_not_exclusive
+E_EpistemischeBetrouwbaarheid,E5,/evidence_chain,Maak de bewijsketen en je feedbackbesluit expliciet vóór de eindconclusie.,Synthese,didactic,legacy_default_not_exclusive
+T_TechnologischeIntegratieVisibility,T0,/tool_aware,Maak expliciet wat de tool wel/niet doet en welke rol gewenst is.,Rolafstemming,didactic,legacy_default_not_exclusive
+T_TechnologischeIntegratieVisibility,T1,/verify,Introduceer verificatie en laat de leerling controleren.,Validatie,didactic,legacy_default_not_exclusive
+T_TechnologischeIntegratieVisibility,T2,/prompt_steer,Stuur op prompt/afbakening en toets of output bruikbaar is.,Instrumenteel gebruik,didactic,legacy_default_not_exclusive
+T_TechnologischeIntegratieVisibility,T3,/chain,Maak stappen/keuzes in gewone taal expliciet.,Transparantie,didactic,legacy_default_not_exclusive
+T_TechnologischeIntegratieVisibility,T4,/mens_vs_ai,Maak complementair: laat leerling de kernbeslissingen nemen.,Complementariteit,didactic,legacy_default_not_exclusive
+T_TechnologischeIntegratieVisibility,T5,/bias_check,Onderzoek beperkingen/bias en verbeter het proces samen.,Kritische geletterdheid,didactic,legacy_default_not_exclusive
+S_SocialeInteractie,S0,/social_check,Check de sociale setting en het beoogde publiek.,Context,didactic,legacy_default_not_exclusive
+S_SocialeInteractie,S1,/peer,Simuleer peer-feedback en maak delen met mensen expliciet mogelijk.,Peer-review,didactic,legacy_default_not_exclusive
+S_SocialeInteractie,S2,/teach,Leren door doceren: laat de leerling uitleggen om begrip te testen.,Uitleg door leerling,didactic,legacy_default_not_exclusive
+S_SocialeInteractie,S3,/rolwissel,Rolwissel: formuleer argumenten en kritische vragen voor de echte interactie.,Perspectief,didactic,legacy_default_not_exclusive
+S_SocialeInteractie,S4,/ssrl_check,"SSRL: maak gedeeld doel, rolverdeling, monitoring en beslismomenten expliciet.",Samenwerking,didactic,legacy_default_not_exclusive
+S_SocialeInteractie,S5,/collectief,"Collectieve synthese: maak perspectieven, open punten, akkoord en herneming zonder AI expliciet.",Collectieve synthese,didactic,legacy_default_not_exclusive
+L_LeercontinuiteitTransfer,L0,/proces_eval,Evalueer kort wat er is geleerd en wat de volgende stap is.,Afsluiten,didactic,legacy_default_not_exclusive
+L_LeercontinuiteitTransfer,L1,/zonder_ai,Laat de leerling de kernstap zonder AI hernemen en markeer wat nog niet zelfstandig lukt.,Fading,didactic,legacy_default_not_exclusive
+L_LeercontinuiteitTransfer,L2,/generalise,Generaliseer: laat de regel/principe formuleren en varianten toepassen.,Generalisatie,didactic,legacy_default_not_exclusive
+L_LeercontinuiteitTransfer,L3,/doel_link,Koppel aan doel en laat de leerling het principe bewijzen met een voorbeeld.,Conceptvorming,didactic,legacy_default_not_exclusive
+L_LeercontinuiteitTransfer,L4,/transfeer,Laat een toepassing buiten de opdracht formuleren en voer een kernstap zonder AI uit.,Transfer,didactic,legacy_default_not_exclusive
+L_LeercontinuiteitTransfer,L5,/vertraging,"Borging: plan vertraagde herneming en laat later zonder AI reproduceren, uitleggen en herkennen wanneer dit nodig is.",Borging,didactic,legacy_default_not_exclusive
+B_BiasCorrectie,B0,/relevantie,Check of bias/inclusie een rol speelt in dit onderwerp of publiek.,Relevantiecheck,didactic,legacy_default_not_exclusive
+B_BiasCorrectie,B1,/rolwissel,Voeg multiperspectiviteit toe (rolwissel) zonder te moraliseren.,Multiperspectiviteit,didactic,legacy_default_not_exclusive
+B_BiasCorrectie,B2,/exclusie_check,Exclusie-check: identificeer ontbrekende stemmen en aannames.,Exclusie-detectie,didactic,legacy_default_not_exclusive
+B_BiasCorrectie,B3,/inclusie,"Herschrijf neutraler en inclusiever, met behoud van inhoud.",Inclusief formuleren,didactic,legacy_default_not_exclusive
+B_BiasCorrectie,B4,/twist,Doorbreek aannames en test alternatieve verklaringen.,Diversiteit & nuance,didactic,legacy_default_not_exclusive
+B_BiasCorrectie,B5,/algo_kritiek,"Algoritmische kritiek: onderzoek mechanismen, data en incentives.",Systeemkritiek,didactic,legacy_default_not_exclusive

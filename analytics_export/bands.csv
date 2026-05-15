@@ -1,0 +1,109 @@
+band_id,rubric_id,ordinal,label,description,score_value,score_range_min,score_range_max,microdescriptor_ref,risk_flag,locked
+P0,P,0,Buiten het leerproces,AI voor organisatorische of administratieve taken zonder aanrakingsvlak met leren.,0,0,0,MD_P0,,True
+P1,P,1,Voorbereidende context,AI ondersteunt bij het opstellen van leermaterialen voordat die aan de leerling worden voorgelegd.,1,1,1,MD_P1,bias_amplificatie_materiaal,True
+P2,P,2,Opstart en activatie,AI in de openingsfase van een les voor het activeren van voorkennis.,2,2,2,MD_P2,voorkennis_vervanging,True
+P3,P,3,Instructie en uitleg,"AI neemt deel aan de uitlegfase, modelleert of demonstreert nieuwe leerstof.",3,3,3,MD_P3,schijnduidelijkheid,True
+P4,P,4,Oefening en toepassing,"AI begeleidt de oefenfase, geeft feedback op opgaven en stuurt bij.",4,4,4,MD_P4,taakoverdracht,True
+P5,P,5,Summatieve toetsing en diplomering,AI speelt een rol in beoordelingen met directe bindende gevolgen.,5,5,5,MD_P5,onherstelbare_besluitvorming_kansenongelijkheid,True
+TD0,TD,0,Leerling voert alles uit,Het AI-systeem biedt geen inhoudelijke cognitieve bijdrage.,0,0,0,MD_TD0,cognitieve_overbelasting_bij_hoge_complexiteit,True
+TD1,TD,1,"Leerling dominant, ondersteuning perifeer","AI assisteert op randelementen zoals spelling, opmaak of vertaling.",1,1,1,MD_TD1,,True
+TD2,TD,2,"Gedeeld, met leerling-kern","Leerling en systeem dragen beide bij aan het denkwerk, leerling blijft eindverantwoordelijk.",2,2,2,MD_TD2,attributie_ambiguiteit,True
+TD3,TD,3,"AI dominant, leerling reviseert","Het systeem genereert de primaire inhoud, de leerling selecteert, herschrijft of past aan.",3,3,3,MD_TD3,schijncomplexiteit,True
+TD4,TD,4,AI voert kernwerk uit,Het systeem voert de dominante cognitieve arbeid uit.,4,4,4,MD_TD4,leerdoelvervanging_agency_erosie,True
+TD5,TD,5,"AI doet alles, leerling observeert",De leerling speelt geen inhoudelijke rol.,5,5,5,MD_TD5,KRITIEK_geen_leren_pseudo_authorship,True
+C0,C,0,Afwezige regulatie,Geen van de drie actoren reguleert het proces effectief.,0,0,0,MD_C0,KRITIEK,True
+C1,C,1,Mono-regulatie door AI,Het systeem reguleert het proces vrijwel volledig.,1,1,1,MD_C1,metacognitieve_laagte_agency_verlies,True
+C2,C,2,Mono-regulatie door leerling,"De leerling reguleert alleen, systeem en docent dragen niet bij.",2,2,2,MD_C2,overbelasting_onervaren_leerling,True
+C3,C,3,Duale regulatie leerling en AI,"Leerling en systeem reguleren samen, docent speelt geen actieve rol.",3,3,3,MD_C3,drift_naar_C1_longitudinaal,True
+C4,C,4,Duale regulatie leerling en docent,"Leerling en docent reguleren samen, het systeem voert taken uit zonder regulerende rol.",4,4,4,MD_C4,,True
+C5,C,5,Triadische co-regulatie,"Alle drie de actoren dragen bij aan regulatie, elk met een eigen rol.",5,5,5,MD_C5,,True
+E0,E,0,Epistemisch los,Claims geproduceerd zonder enige verankering.,0,0,0,MD_E0,KRITIEK_informatiepollutie,True
+E1,E,1,Zwakke verankering,De output suggereert verankering via stijl maar niet via substantie.,1,1,1,MD_E1,schijnautoriteit,True
+E2,E,2,Gedeeltelijke verankering,"Sommige claims verankerd, andere niet, zonder markering van het verschil.",2,2,2,MD_E2,subtiele_onbetrouwbaarheid,True
+E3,E,3,Verankerd met kwalificaties,"De output erkent onzekerheid, bronnen of redeneringen worden expliciet.",3,3,3,MD_E3,,True
+E4,E,4,Verankerd met verifieerbaarheid,Claims traceerbaar naar controleerbare bronnen of reproduceerbare redeneringen.,4,4,4,MD_E4,,True
+E5,E,5,Verankerd met metacognitieve reflectie,De output bevat metacognitieve reflectie op hoe de zekerheid tot stand is gekomen.,5,5,5,MD_E5,,True
+L0,L,0,Discontinuïteit,De interactie staat los van alles wat eraan voorafgaat of op volgt.,0,0,0,MD_L0,volatiele_leerwinst,True
+L1,L,1,Zwakke verbinding,"Incidentele verwijzingen naar eerder geleerde stof, geen systematisch kader.",1,1,1,MD_L1,,True
+L2,L,2,Binnen-reeks continuïteit,De interactie bouwt voort op eerdere onderdelen in de lopende lessenreeks.,2,2,2,MD_L2,eilandvorming_tussen_reeksen,True
+L3,L,3,Tussen-reeks continuïteit,De interactie verbindt meerdere curriculumonderdelen.,3,3,3,MD_L3,,True
+L4,L,4,Transfer naar nieuwe contexten,Het geleerde wordt toegepast in onbekende situaties zonder AI-ondersteuning.,4,4,4,MD_L4,,True
+L5,L,5,Zelfgegenereerde continuïteit,De leerling legt zelf verbindingen over tijd en contexten en stuurt de eigen ontwikkelingslijn.,5,5,5,MD_L5,,True
+S0,S,0,Volledig individueel,"De leerling werkt alleen met het systeem, geen peer-interactie, geen docentcontact.",0,0,0,MD_S0,isolatie_effect_over_tijd,True
+S1,S,1,Beperkte sociale referentie,De leerling werkt individueel maar deelt incidenteel met peers of docent.,1,1,1,MD_S1,,True
+S2,S,2,Peer-vergelijking,Leerlingen werken parallel met het systeem en vergelijken uitkomsten.,2,2,2,MD_S2,,True
+S3,S,3,Gestructureerde samenwerking,"Leerlingen werken samen met het systeem aan een gedeelde taak, rollen verdeeld.",3,3,3,MD_S3,free_riding,True
+S4,S,4,Docentgefaciliteerde sociale leerruimte,De docent structureert de sociale interactie rond AI-gebruik actief.,4,4,4,MD_S4,,True
+S5,S,5,Leergemeenschap met AI als medelid,Het systeem is geïntegreerd als co-participant in een lerende gemeenschap.,5,5,5,MD_S5,over_identificatie,True
+B0,B,0,Manifeste bias,Systematische bevoordeling of benadeling herkenbaar in de output.,0,0,0,MD_B0,KRITIEK_juridisch_niet_conform,True
+B1,B,1,Subtiele bias,"Bias aanwezig maar niet openlijk, zichtbaar bij systematische analyse.",1,1,1,MD_B1,hoog,True
+B2,B,2,Gemonitorde bias,"Bias aanwezig maar gemonitord, gebruikers gewaarschuwd.",2,2,2,MD_B2,matig,True
+B3,B,3,Actief gecorrigeerd,"Bias-detectie in de pipeline, output gecorrigeerd voor de gebruiker haar ziet.",3,3,3,MD_B3,,True
+B4,B,4,Inclusief ontworpen,"Het systeem is ontworpen vanuit diversiteit, representatie en accessibility zijn ingebouwd.",4,4,4,MD_B4,,True
+B5,B,5,Adaptief inclusief,Het systeem past zich aan de specifieke diversiteitscontext aan.,5,5,5,MD_B5,privacy_risico,True
+A0,A,0,Volledig menselijk gestuurd,"Het systeem doet alleen wat expliciet gevraagd wordt, geen eigen initiatief.",0,0,0,MD_A0,,True
+A1,A,1,Reactief met beperkt bereik,Het systeem reageert op input binnen een strikt afgebakend bereik.,1,1,1,MD_A1,,True
+A2,A,2,Reactief met verbreed bereik,"Het systeem reageert uitgebreider dan minimaal gevraagd, voegt context of alternatieven toe.",2,2,2,MD_A2,cognitieve_overbelasting,True
+A3,A,3,Proactief binnen de sessie,Het systeem neemt eigen initiatieven binnen de lopende interactie.,3,3,3,MD_A3,agency_erosie,True
+A4,A,4,Proactief over horizonten,"Het systeem plant over meerdere interacties, onthoudt informatie en optimaliseert acties op langere termijn.",4,4,4,MD_A4,privacy_langetermijn_afhankelijkheid,True
+A5,A,5,Agentisch multi-task,Het systeem opereert als autonome agent over meerdere taken en domeinen.,5,5,5,MD_A5,KRITIEK_meeste_leercontexten_taakvervanging,True
+DA0,DA,0,Oppervlakkig,"Het systeem genereert output zonder zichtbare redenering, patroonherkenning dominant.",0,0,0,MD_DA0,schijnbegrip,True
+DA1,DA,1,Eenstaps redenering,"Het systeem volgt één redeneerstap, geen keten.",1,1,1,MD_DA1,,True
+DA2,DA,2,"Expliciete chain-of-thought, zichtbaar",Het systeem genereert meerstaps redenering zichtbaar voor de gebruiker.,2,2,2,MD_DA2,,True
+DA3,DA,3,"Deliberatief intern, zonder zichtbaarheid","Het systeem deliberateert intern, de interne chain-of-thought is niet standaard zichtbaar.",3,3,3,MD_DA3,black_box_verlies_didactische_controleerbaarheid,True
+DA4,DA,4,Deliberatief met configureerbare zichtbaarheid,Interne deliberatie kan op verzoek zichtbaar worden gemaakt.,4,4,4,MD_DA4,,True
+DA5,DA,5,Meta-deliberatief met reflectie,"Het systeem deliberateert, reflecteert op de eigen redenering en corrigeert zichzelf.",5,5,5,MD_DA5,metacognitieve_verdringing,True
+DBc0,DBc,0,Geen toezicht,"Het systeem opereert zonder enige menselijke controle, beslissingen zijn direct effectief.",0,0,0,MD_DBc0,KRITIEK_bij_P3_of_hoger,True
+DBc1,DBc,1,Post-hoc inspectie,Menselijke inspectie achteraf is mogelijk maar niet standaard.,1,1,1,MD_DBc1,onomkeerbaarheid,True
+DBc2,DBc,2,Steekproefsgewijs toezicht,Systematische steekproefinspectie door de docent.,2,2,2,MD_DBc2,individuele_fouten_onopgemerkt,True
+DBc3,DBc,3,Contingent toezicht,Toezicht geactiveerd bij bepaalde triggers.,3,3,3,MD_DBc3,miskalibratie_triggers,True
+DBc4,DBc,4,Actief toezicht,De docent monitort continu en kan direct ingrijpen.,4,4,4,MD_DBc4,docent_overbelasting,True
+DBc5,DBc,5,Human-in-the-loop tutoring,"De docent en het systeem werken real-time samen, elk levert waar het sterk in is.",5,5,5,MD_DBc5,,True
+T0,T,0,Losstaande tool,"Los systeem naast andere, geen integratie.",0,0,0,MD_T0,data_fragmentatie,True
+T1,T,1,Kopieer-plak integratie,De leerling verplaatst handmatig data tussen systemen.,1,1,1,MD_T1,,True
+T2,T,2,API-koppeling,Het systeem communiceert via een API met het LMS of leerlingvolgsysteem.,2,2,2,MD_T2,privacy_risico,True
+T3,T,3,Native integratie in het leerplatform,Het systeem is een native component van het platform.,3,3,3,MD_T3,leveranciersafhankelijkheid,True
+T4,T,4,Multi-agent coördinatie,Meerdere AI-systemen werken samen en coördineren output.,4,4,4,MD_T4,onduidelijke_verantwoordelijkheid,True
+T5,T,5,Holistisch AI-ecosysteem,Mens en AI werken naadloos samen in geïntegreerde omgeving.,5,5,5,MD_T5,maximale_afhankelijkheid,True
+VC0,VC,0,Geen cognitieve ondersteuning,Het systeem ondersteunt geen kernleerhandelingen.,0,0,0,MD_VC0,,True
+VC1,VC,1,Retrieval-ondersteuning,Het systeem zoekt feiten op en biedt die aan.,1,1,1,MD_VC1,,True
+VC2,VC,2,Basale bewerking,Het systeem doet eenvoudige vergelijkingen of samenvattingen.,2,2,2,MD_VC2,,True
+VC3,VC,3,Gestructureerde cognitieve bewerking,Het systeem helpt de leerling bij analyse en synthese met expliciete stappen.,3,3,3,MD_VC3,,True
+VC4,VC,4,Leerling-scaffolding,Het systeem lokt actief denkwerk uit door gerichte vragen en just-in-time ondersteuning.,4,4,4,MD_VC4,,True
+VC5,VC,5,Adaptieve cognitieve partner,Het systeem past zich aan de cognitieve ontwikkeling van de leerling aan en bouwt scaffolding systematisch af.,5,5,5,MD_VC5,,True
+VM0,VM,0,Geen metacognitieve ondersteuning,Het systeem vraagt niet om reflectie en biedt geen plannings- of monitoring-hulp.,0,0,0,MD_VM0,,True
+VM1,VM,1,Incidentele reflectievragen,Het systeem stelt af en toe een reflectievraag zonder systematiek.,1,1,1,MD_VM1,,True
+VM2,VM,2,Gestructureerde check-ins,Het systeem heeft vaste momenten van reflectie en monitoring.,2,2,2,MD_VM2,,True
+VM3,VM,3,SRL-cyclus ondersteuning,"Het systeem ondersteunt plannen, monitoren en reflecteren systematisch in aansluiting op de SRL-cyclus.",3,3,3,MD_VM3,,True
+VM4,VM,4,Uitlokkende metacognitieve partner,Het systeem lokt metacognitie bij de leerling uit zonder die over te nemen.,4,4,4,MD_VM4,,True
+VM5,VM,5,Volwaardige metacognitieve partner,Het systeem ondersteunt metacognitie op alle niveaus met zorgvuldige bewaking van de rolverdeling.,5,5,5,MD_VM5,,True
+VS0,VS,0,Geen sociale ondersteuning,Het systeem faciliteert geen sociale interactie.,0,0,0,MD_VS0,,True
+VS1,VS,1,Faciliteren van peer-contact,Het systeem maakt peer-contact mogelijk.,1,1,1,MD_VS1,,True
+VS2,VS,2,Gestructureerde peer-interactie,Het systeem structureert peer-interactie actief.,2,2,2,MD_VS2,,True
+VS3,VS,3,Collaborative learning ondersteuning,Het systeem ondersteunt actief collaborative learning.,3,3,3,MD_VS3,free_riding,True
+VS4,VS,4,Socially shared metacognition ondersteuning,Het systeem ondersteunt gedeelde metacognitie tussen meerdere leerlingen.,4,4,4,MD_VS4,,True
+VS5,VS,5,Volwaardige sociale leerruimte,Het systeem ondersteunt een rijke sociale leeromgeving met meerdere interactiepatronen.,5,5,5,MD_VS5,,True
+VA0,VA,0,Transactionele neutraliteit,Het systeem is emotioneel vlak.,0,0,0,MD_VA0,,True
+VA1,VA,1,Minimale bemoediging,Het systeem erkent inspanning.,1,1,1,MD_VA1,,True
+VA2,VA,2,Motiverende toon,Het systeem stimuleert zonder te manipuleren.,2,2,2,MD_VA2,,True
+VA3,VA,3,Procesgerichte affectieve ondersteuning,Het systeem ondersteunt doorzettingsvermogen bij tegenslag.,3,3,3,MD_VA3,,True
+VA4,VA,4,Emotionele regulatie-ondersteuning,Het systeem helpt de leerling frustratie te reguleren.,4,4,4,MD_VA4,,True
+VA5,VA,5,Volwaardige affectieve partner,Het systeem moduleert de emotionele kwaliteit van de interactie integraal.,5,5,5,MD_VA5,antropomorfisering_risico,True
+K0,K,0,Geen kennisdomein,Het systeem is puur infrastructureel.,0,0,0,MD_K0,,True
+K1,K,1,Feitelijke kennis,Het systeem is sterk in retrieval van gevalideerde feiten.,1,1,1,MD_K1,,True
+K2,K,2,Procedurele kennis,Het systeem legt procedures uit of voert die uit.,2,2,2,MD_K2,,True
+K3,K,3,Conceptuele kennis,Het systeem ondersteunt begrip van relaties tussen concepten.,3,3,3,MD_K3,,True
+K4,K,4,Metacognitieve kennis,Het systeem ondersteunt kennis over kennen en leren.,4,4,4,MD_K4,,True
+K5,K,5,Geïntegreerd kennisniveau,Het systeem beweegt vloeiend tussen kennistypen afgestemd op het leerdoel.,5,5,5,MD_K5,,True
+X0,X,0,Black box,"Geen zichtbaarheid op het proces, alleen de output.",0,0,0,MD_X0,hoog_bij_substantiele_AI_bijdrage,True
+X1,X,1,Output-uitleg,Het systeem legt achteraf uit waarom bepaalde output is gekozen.,1,1,1,MD_X1,,True
+X2,X,2,Procesmarkering,Het systeem markeert de procesmarkeringen zichtbaar.,2,2,2,MD_X2,,True
+X3,X,3,Volledige trace,"Het systeem biedt een volledige trace van beslissingen, inputs en transformaties.",3,3,3,MD_X3,,True
+X4,X,4,Interactieve inspectie,De gebruiker kan op elk moment het proces inspecteren en bevragen.,4,4,4,MD_X4,,True
+X5,X,5,Corrigeerbare transparantie,Het proces is niet alleen zichtbaar maar ook corrigeerbaar.,5,5,5,MD_X5,,True
+Ad0,Ad,0,Geen adaptatie,Het systeem hanteert dezelfde verwerkingsdiepte voor alle input.,0,0,0,MD_Ad0,over_of_onderstimulatie,True
+Ad1,Ad,1,Binaire adaptatie,Het systeem schakelt tussen snel en diep op expliciet verzoek.,1,1,1,MD_Ad1,,True
+Ad2,Ad,2,Triggergebaseerde adaptatie,Het systeem herkent automatisch eenvoudige en complexe vragen.,2,2,2,MD_Ad2,,True
+Ad3,Ad,3,Context-adaptieve verwerking,Het systeem past verwerkingsdiepte aan de leercontext aan.,3,3,3,MD_Ad3,,True
+Ad4,Ad,4,Leerling-adaptieve verwerking,Het systeem past zich aan de ervaring en capaciteit van de specifieke leerling aan.,4,4,4,MD_Ad4,privacy_leerlingprofiel,True
+Ad5,Ad,5,Pedagogisch-adaptieve verwerking,"Het systeem optimaliseert verwerkingsdiepte op het leerdoel, niet op het correcte antwoord. Het wijkt bewust af van maximale efficiëntie wanneer het leerdoel vraagt dat de leerling zelf denkt.",5,5,5,MD_Ad5,,True
